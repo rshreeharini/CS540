@@ -1,0 +1,141 @@
+<html>
+<head>
+<title>CHATBOT</title>
+<link rel="shortcut icon" href="#" />
+<style>
+	* {
+		font-size:30px;
+	}
+body {
+  font: 15px arial, sans-serif;
+  background-color: #d9d9d9;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#bodybox {
+  margin: auto;
+  max-width: 550px;
+  font: 15px arial, sans-serif;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 15px;
+}
+
+#chatborder {
+  border-style: solid;
+  background-color: #f6f9f6;
+  border-width: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 15px;
+  border-radius: 15px;
+  background-color: lightblue;
+  width: 800px;
+  height: 400px;
+  overflow: auto;
+}
+
+.chatlog {
+   font: 15px arial, sans-serif;
+}
+
+#chatbox {
+  font: 17px arial, sans-serif;
+  height: 22px;
+  width: 100%;
+  overflow: scroll;
+}
+
+h1 {
+  margin: auto;
+}
+
+pre {
+  background-color: #f0f0f0;
+  margin-left: 20px;
+}
+</style>
+</head>
+<body>
+<center>
+	<b>
+	<h1 align="center">CHAT BOT </h1>
+	<button><a href="cs.html">CS CHATBOT</a></button>
+	<br><br><br><br><br>
+	<div id='chatborder'>
+    	<p id="chatlog7" class="chatlog">&nbsp;</p>
+    	<p id="chatlog6" class="chatlog">&nbsp;</p>
+    	<p id="chatlog5" class="chatlog">&nbsp;</p>
+    	<p id="chatlog4" class="chatlog">&nbsp;</p>
+    	<p id="chatlog3" class="chatlog">&nbsp;</p>
+    	<p id="chatlog2" class="chatlog">&nbsp;</p>
+    	<p id="chatlog1" class="chatlog">&nbsp;</p>
+    	<input type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me.">
+	<button id="name-button" >CLICK ME</button>
+
+ 	</div>
+  	<br>
+	<br>
+	
+	<p id="greeting"></p>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script>
+		var message;	
+		var input;
+		var mess = [], 
+  		lastUserMessage = "", 
+  		botMessage = "", 
+  		botName = 'Chatbot', 
+  		talking = true;
+		var input = document.getElementById("chatbox");
+		input.addEventListener("keyup", function(event) {
+  		if (event.keyCode === 13) {
+   			event.preventDefault();
+   			document.getElementById("name-button").click();
+  			}
+		});
+		
+		function Speech(say) {
+  			if ('speechSynthesis' in window && talking) {
+    				var utterance = new SpeechSynthesisUtterance(say);
+    			        speechSynthesis.speak(utterance);
+ 				 }
+		}
+		$("#name-button").click(function(event){
+			let message={
+				name:$("#chatbox").val()
+}
+	console.log(message);
+	$.post("http://localhost:5001/covid",JSON.stringify(message),function(response){
+		lastUserMessage = document.getElementById("chatbox").value;
+	
+    		document.getElementById("chatbox").value = "";
+    		mess.push("<b>" + "USER:"+lastUserMessage);
+    
+		mess.push("<b>" + botName + ":</b> " + response.greeting);
+    			for (var i = 1; i < 8; i++) {
+      				if (mess[mess.length - i])
+        			document.getElementById("chatlog" + i).innerHTML = mess[mess.length - i];
+    		}
+		Speech(response.greeting)
+		console.log(response);
+		});
+	});
+	
+    	
+</script>
+</center>
+</body>
+</html>
