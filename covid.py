@@ -32,7 +32,7 @@ def get_model():
     session = keras.backend.get_session()
     init = tf.global_variables_initializer()
     session.run(init)
-    model = tf.keras.models.load_model('model_covid.h5')
+    model = tf.keras.models.load_model('model_covid_cnn.h5')
     print("Model Loaded!!!")
     
 def bag_of_words(user_query, vocabulary):
