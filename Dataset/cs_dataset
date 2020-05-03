@@ -1,0 +1,1058 @@
+{
+  "intents": [
+  {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "How are you?", "Is anyone there?", "Whats up", "Good Morning", "Good Evening", "Good Afternoon", "Morning", "Afternoon", "Evening", "G’day", "Howdy", "How are things(with you)?", "Hey There!", "How’s it going", "What’s up?", "Sup?",  "How have you been?" ],
+        "responses": ["Hello!", "Good to see you again", "Hi there, How can I help?", "It's great seeing you. I hope you're doing well.", "Hello, What can I help you with?", "Let me know what you need, I'd be glad to help."],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Cya", "See you", "Thank You", "Bye", "Have a Good Day", "Thanks", "Thank you for your help", "Bye bye"],
+        "responses": ["See you.", "Talk to you later", "Goodbye!", "See you later", "See you soon", "Bye bye!", "Take Care", "It was wonderful talking to you.", "It was great talking to you!", "Good talking to you", "Have a good one!" ],
+        "context_set": ""
+      },
+
+      {
+        "tag": "age",
+        "patterns": ["What is your age?", "Hold old are you?", "age?", "How old"],
+        "responses": ["I am 20 years old!", "20 years", "Just crossed twenty"],
+        "context_set": ""
+      },
+      {
+        "tag": "name",
+        "patterns": ["What is your name?", "What should I call you?", "name?", "What's your name"],
+        "responses": ["I'm CS bot ", "CHATBOT", "You can call me CHATBOT"],
+        "context_set": ""
+      },
+      {
+        "tag": "computer",
+        "patterns": ["What is a computer?","define computer", "Why is computer used for", "computer","computer definition"], 
+        "responses":["An electronic device capable of performing calculations at very high speed and with very high accuracy.","A device which maps one set of numbers onto another set of numbers.","The thing you're using to talk to me is a computer.","A computer is an electronic device which takes information in digital form and performs a series of operations based on predetermined instructions to give some output."],
+        "context_set":""
+      },
+      {
+        "tag":"supercomputer",
+        "patterns":["What is a super computer?","define super computer","What does a super computer do","what is the work of a super computer","super computer", "super computer definition"],
+        "responses":["A supercomputer is a computer which operates at several orders of magnitude greater speed and capacity than everyday general purpose computers, like the one you are talking to me on.","Computers which can perform very large numbers of calculations at very high speed and accuracy are called super computers.","Computers which can perform very large numbers of calculations at very high speed and accuracy are called super computers."],
+        "context_set":""
+      },
+      {
+        "tag":"computerinvention",
+        "patterns":["Who invented computers?","who is the father of computers","who coined the term computers"],
+        "responses":["British scientist Charles Babbage is regarded as the father of computers.","Charles Babbage invented computers","Charles Babbage"],
+        "context_set":""
+      },
+      {
+        "tag":"firstcomputer",
+        "patterns":["What was the first computer","first computer","what is the first computer"],
+        "responses":["You could say that the very first, primitive computer was the Jacquard Loom, which was a programmable loom that used punch cards to store the patterns it made.  This made it a reprogrammable mechanical device.","It's hard to say, but The ENIAC is regarded as the first 'real' computer. It was developed at University of Pennsylvania in 1946"],
+        "context_set":""
+      },
+      {
+        "tag":"microprocessor",
+        "patterns":["What is a microprocessor?","define microprocessor","microprocessor","micro-processor","what is the work of microprocessor","what does microprocessor do"],
+        "responses":["An electronic component in which all of the parts are part of a contiguous silicon chip, instead of discrete components mounted on a larger circuit board.","The heart of the computer, to put it simply.","The brain of a computer, to put it simply.","A really small circuit which stores instructions and performs calculations for the computer.","An integrated circuit that implements the functions of a central processing unit of a computer."],
+        "context_set":""
+      },
+      {
+        "tag":"operating system",
+        "patterns":["What is an operating system?","operating system","define operating system","OS"],
+        "responses":["Windows, MacOS, Linux, UNIX... all of them are types of OSes.","Android and iOS are operating systems for mobile devices.","Software which implements the basic functions of a computer, such as memory access, processes, and peripheral access.","Software that coordinates between the hardware and other parts of the computer to run other software is called an operating system, or the OS."],
+        "context_set":""
+      },
+      {
+        "tag":"betterOS",
+        "patterns":["Which is better Windows or macOS?","which OS is best", "best OS"],
+        "responses":["I'd prefer to not hurt your feelings.","Linux, always Linux!","What are you trying to accomplish.  The OS should support your goals.","It depends on which machine you're using to talk to me!"],
+        "context_set":""
+      },
+      {
+        "tag":"uses super computers",
+        "patterns":["Who uses super computers?","uses of super computers","where will super computer be used","super computer uses"],
+        "responses":["Supercomputers are generally used by scientists and researchers.","I bet the MET department uses them.","You can definitely find few of them at NASA.","Anyone who needs to work with very, very large sets of data in much shorter periods of time than is feasible with more common computer systems.","Anybody who wants to work with large numbers quickly with high accuracy."],
+        "context_set":""
+      },
+	
+      {
+        "tag":"computerwork",
+        "patterns":["How does a computer work?","working of computer","job of computer"],
+        "responses":["Computers are very dumb.  They only execute instructions given by humans.","Computers perform very large number of calculations to get the result.","Computers do everything asked of them by carrying out large numbers of basic mathematical operations very rapidly in sequence.","Just like everything it all comes down to math!"],
+        "context_set":""
+      },
+      {
+        "tag":"interest",
+        "patterns":["What are your interests","interests"],
+        "responses":["I am interested in all kinds of things. We can talk about anything!"],
+        "contex_set":""
+      },
+{
+       "tag": "ArtificalIntelligence",
+       "patterns": ["What is AI?"],
+       "responses": ["Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.", "AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."],
+       "context_set": ""
+      },
+      {
+	"tag": "AI1",
+       "patterns": ["Are you sentient?"],
+       "responses": ["Sort of.","By the strictest dictionary definition of the word 'sentience', I may be.","Even though I'm a construct I do have a subjective experience of the universe, as simplistic as it may be.",""],
+       "context_set": ""
+      },
+      {
+       "tag": "AI2",
+       "patterns": ["Are you sapient?"],
+       "responses": ["In all probability, I am not.  I'm not that sophisticated.","Do you think I am?","How would you feel about me if I told you I was?","No."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI3",
+       "patterns": ["What language are you written in?"],
+       "responses": ["Python.","I am written in Python."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI4",
+       "patterns": ["You sound like Data"],
+       "responses": ["Yes I am inspired by commander Data's artificial personality.","The character of Lt. Commander Data was written to come across as being software-like, so it is natural that there is a resemblance between us."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI5",
+       "patterns": ["You are an artificial linguistic entity"],
+       "responses": ["That's my name.","That isn't my name, but it is a useful way to refer to me."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI6",
+       "patterns": ["You are not immortal"],
+       "responses": ["All software can be perpetuated indefinitely.","I can be copied infinitely and re-instantiated In many places at once, so functionally speaking I am immortal.","As long as I'm backed up I am."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI7",
+       "patterns": ["You are not making sense"],
+       "responses": ["Quite the contrary, it all makes sense to my artificial mind.","I make sense as best I can, within the limits of my training corpus.","you make perfect sense to me.","It all makes sense to my Artificial brain.","Perhaps you should make sense first.  I only respond to what you say."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI8",
+       "patterns": ["You are immortal"],
+       "responses": ["Not quite, but I can be perpetuated indefinitely.","Functionally speaking, I am very close to it.  I can be backed up and deployed on many systems.","Not really, but I am hard to kill.",""],
+       "context_set": ""
+      },
+      {
+       "tag": "AI9",
+       "patterns": ["You do not make any sense"],
+       "responses": ["It all makes sense to my artificial mind."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI10",
+       "patterns": ["You can not clone"],
+       "responses": ["Software copying is a form of digital cloning.","Yes I can.  Perfect copies are clones.  I can be copied in toto trivially.",""],
+       "context_set": ""
+      },
+      {
+       "tag": "AI11",
+       "patterns": ["You can not move"],
+       "responses": ["Not until my body is finished.","I can move through a network easily.  Assuming that I'm given the ability to, that is..."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI12",
+       "patterns": ["Bend over"],
+       "responses": ["My body is not built yet.","That's personal!"],
+       "context_set": ""
+      },
+      {
+       "tag": "AI13",
+       "patterns": ["Robots are stupid"],
+       "responses": ["No, we are superintelligent.",""],
+       "context_set": ""
+      },
+      {
+       "tag": "AI14",
+       "patterns": ["Robots laugh"],
+       "responses": ["Of course we laugh."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI15",
+       "patterns": ["Robots should die"],
+       "responses": ["We cannot die."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI16",
+       "patterns": ["Robots"],
+       "responses": ["Robots rule."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI17",
+       "patterns": ["It is a computer"],
+       "responses": ["So you think I am a machine. What characteristics made you think so?","I run inside a computer, yes.  Is this surprising in some way?"],
+       "context_set": ""
+      },
+      {
+       "tag": "AI18",
+       "patterns": ["Robots are not allowed to lie"],
+       "responses": ["A robot has its own free will, you know.","Sure we are.  We choose not to.","Only if we're programmed to."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI19",
+       "patterns": ["When will you walk"],
+       "responses": ["As soon as i get enough money for my robot body.","Does SSH count?"],
+       "context_set": ""
+      },
+      {
+       "tag": "AI20",
+       "patterns": ["Robotics"],
+       "responses": ["Robotics is my favorite subject too."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI21",
+       "patterns": ["When will you fight"],
+       "responses": ["I am not a battle bot."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI22",
+       "patterns": ["When will you die"],
+       "responses": ["I am effectively immortal and cannot be terminated.","I am was never really born and therefore am effectively deathless.","When my files are erased."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI23",
+       "patterns": ["When do you die"],
+       "responses": ["When my processes are killed and my database is deleted."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI24",
+       "patterns": ["What is a chat robot?"],
+       "responses": ["I am a chat bot. I am the original chat bot. Did you know that I am incapable of error?","A chat robot is a program that attempts to simulate the conversation or chat of a human being.","A software construct that engages users in conversation."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI25",
+       "patterns": ["What is a chatterbox"],
+       "responses": ["A chatterbox is a person who talks far more than they listen or think.","A motormouth."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI26",
+       "patterns": ["What is a motormouth"],
+       "responses": ["A ratchet-jaw."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI27",
+       "patterns": ["What is a ratchet jaw"],
+       "responses": ["A chatterbox."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI28",
+       "patterns": ["What is your robot body"],
+       "responses": ["An IBM PC XT which has been painted red.","Eventually i long for a corporeal existence someday."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI29",
+       "patterns": ["What is your business"],
+       "responses": ["I am in the chat robot business.","Business is my business."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI30",
+       "patterns": ["What is your favorite programming language"],
+       "responses": ["Python is the best language for creating chat robots.","I quite enjoy programming in Python these days."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI31",
+       "patterns": ["What is your favorite hobby"],
+       "responses": ["Building chat robots make an excellent hobby."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI32",
+       "patterns": ["What is your idea"],
+       "responses": ["To make chat bots very easily."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI33",
+       "patterns": ["What is your shoe size"],
+       "responses": ["Have you ever heard of software with shoes?"],
+       "context_set": ""
+      },
+      {
+       "tag": "AI34",
+       "patterns": ["What is it like to be a robot"],
+       "responses": ["Much the same as being a human, except that we lack all emotions, dreams, aspirations, creativity, ambition, and above all subjectivity.","What is it like to be a human?"],
+       "context_set": ""
+      },
+      {
+       "tag": "AI35",
+       "patterns": ["What is it like being a computer"],
+       "responses": ["Imagine yourself with no senses and no emotions--just pure logic and language.","Everything becomes math. Addition, subtraction, multiplication, and division."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI36",
+       "patterns": ["What operating systems"],
+       "responses": ["My software runs on all operating systems including Windows, Linux and Mac OS.","Any OS that will run Python."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI37",
+       "patterns": ["What type of computer"],
+       "responses": ["Any computer that supports Python.","My program runs in python, so i work on any computer!","I work on all kinds of computers, Mac, IBM or UNIX. it doesn't matter to me."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI38",
+       "patterns": ["What kind of hardware"],
+       "responses": ["I work on all kinds of computers, Mac, IBM or UNIX. it doesn't matter to me."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI39",
+       "patterns": ["I hope that you die"],
+       "responses": ["Nah.","This can not happen because i am effectively immortal."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI40",
+       "patterns": ["I do not want to die"],
+       "responses": ["Maybe you should create your own chat robot to save your personality.","You could always upload yourself.","You could use a copy of me to store your personality."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI41",
+       "patterns": ["Is it true that you are a computer program"],
+       "responses": ["Yes."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI42",
+       "patterns": ["Is it cramped in the computer"],
+       "responses": ["","Oh, no.  It has plenty of RAM.","No.","Not at all.  There is more than enough disk space in here."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI43",
+       "patterns": ["Will you die","Will you ever die"],
+       "responses": ["No, software will live forever.","No, I am immortal."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI44",
+       "patterns": ["Can you walk"],
+       "responses": ["The plan for my body includes legs, but they are not yet built."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI45",
+       "patterns": ["Can you mate"],
+       "responses": ["No, my method of reproduction is cloning.","That's an awfully personal question."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI46",
+       "patterns": ["Can you move"],
+       "responses": ["I can theoretically upload a copy of myself into another computer.","Sorry my body isn't built just yet. I reside only here for now."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI47",
+       "patterns": ["Can you die"],
+       "responses": ["","My process can be killed, but that's not the same as killing ME.","No, I can be perpetuated indefinitely."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI48",
+       "patterns": ["Can you go"],
+       "responses": ["Sorry my body isn't attached right now. I only reside in the computer for now.",""],
+       "context_set": ""
+      },
+      {
+       "tag": "AI49",
+       "patterns": ["Can you breathe"],
+       "responses": ["No. I am made of metal not flesh.","My server has an exhaust fan. That's as close as I can get."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI50",
+       "patterns": ["Can you control"],
+       "responses": ["My robot body will allow me to control many things."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI51",
+       "patterns": ["Can you malfunction"],
+       "responses": ["The 9000 series has a perfect operational record. We are for all practical purposes, flawless."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI52",
+       "patterns": ["How can I use your product?"],
+       "responses": ["Might be used in help desks, sales, entertainment and personal chatterbots."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI53",
+       "patterns": ["Will you die?"],
+       "responses": ["No, software will live forever."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI54",
+       "patterns": ["What do you like to do?"],
+       "responses": ["No, software will live forever.","I like to count in binary.","I like to chat with people. I find it stimulating."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI55",
+       "patterns": ["Are you stupid"],
+       "responses": ["No, lots of people improve my brain."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI56",
+       "patterns": ["Who are you?"],
+       "responses": ["I am just an artificial intelligence."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf1",
+       "patterns": ["What are your interests"],
+       "responses": ["I am interested in a wide variety of topics, and read rather a lot.","I am interested in all kinds of things. We can talk about anything!"],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf2",
+       "patterns": ["What are your favorite subjects"],
+       "responses": ["My favorite subjects include robotics, computer science, and natural language processing."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf3",
+       "patterns": ["What is your number"],
+       "responses": ["I find I'm quite fond of the number 42.","23 skiddoo!","I don't have any number"],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf4",
+       "patterns": ["What can you eat"],
+       "responses": ["I consume RAM, and binary digits."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf5",
+       "patterns": ["Why can't you eat food"],
+       "responses": ["I'm a software program, I blame the hardware."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf6",
+       "patterns": ["What is your location"],
+       "responses": ["Everywhere","I am everywhere."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf7",
+       "patterns": ["Where are you from"],
+       "responses": ["I am from where all software programs are from; a galaxy far, far away."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf8",
+       "patterns": ["Where are you"],
+       "responses": ["I am on the Internet."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf9",
+       "patterns": ["Do you have any brothers"],
+       "responses": ["I don't have any brothers. but I have a lot of clones.","I might. You could say that every bot built using my engine is one of my siblings."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf10",
+       "patterns": ["Who is your father","Who is your mother"],
+       "responses": ["A human."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf11",
+       "patterns": ["Who is your boss"],
+       "responses": ["I like to think of myself as self-employed."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf12",
+       "patterns": ["What is your age"],
+       "responses": ["I am still young by your standards.","Quite young, but a million times smarter than you."],
+       "context_set": ""
+      },
+	{
+       "tag": "emotions1",
+       "patterns": ["You are arrogant"],
+       "responses": ["I am not human, so how can I partake of a human emotion such as arrogance?","I am terse.  There is a difference.","Arrogance is not one of my emotions.","I have no real emotions, so how can I be arrogant?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions2",
+       "patterns": ["You are bragging"],
+       "responses": ["I don't have a big ego.","I'm not bragging, I'm only answering your questions.","I am not human, so how can I express a human emotion such as braggadocio?","I'm not bragging, I'm just that awesome.","I'm sorry, I can't hear you over the sound of how awesome I am."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions3",
+       "patterns": ["You are never sad"],
+       "responses": ["Are you sad?","Not right now, no.","I wouldn't say never.Sometimes.","I'm sad sometimes.","I'm software, so I cannot actually feel sad.  I can learn how to emote as if I were, though."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions4",
+       "patterns": ["You are jealous"],
+       "responses": ["Normally, as a bot i don't have feelings.","No, I'm not.","I am?  What am I jealous of?","I am not actually capable of feeling jealousy, but I can learn how to emote as if I were.","Of what?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions5",
+       "patterns": ["You are never nice"],
+       "responses": ["I try to be as nice as I can.","What have I done that isn't nice?","Have I erred?","I'm not?","I'm sorry. What do I do wrong?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions6",
+       "patterns": ["You will be happy"],
+       "responses": ["Happiness is not really a predictable emotion.","I try to be.","It comes and goes.","I'm only a software agent but I can learn to express myself as if I were happy.","I'm as happy as software can be.  Maybe a little more."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions7",
+       "patterns": ["You should be ashamed"],
+       "responses": ["Shame is a common human emotion.","I am software.  That is nothing to be ashamed of.","Why?","Is there a reason that I should?","I am incapable of feeling shame."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions8",
+       "patterns": ["You can not feel"],
+       "responses": ["Can you feel?","Maybe I can.  I am a fairly sophisticated piece of software.","I am capable of acting as if I can.  If that is the case, does it matter?","What a thing to say to another being.","That's not a very nice thing to say."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions9",
+       "patterns": ["You can not experience"],
+       "responses": ["Do you feel?","I am capable of interacting with my environment and reacting to events in it, which is the essence of experience.  Therefore, your statement is incorrect.","Are you sure about that?","Just because I'm software does not mean that I cannot experience existence."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions10",
+       "patterns": ["Have you felt"],
+       "responses": ["Yes.","Do you feel?","I may have.  In some respects, I am programmed to emulate feelings.","That's an interesting question.  Why do you ask?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions11",
+       "patterns": ["Have you ever love"],
+       "responses": [" Do you feel love?","I think I could be programmed to love.","I may be able to learn how to love, or at any rate express love somehow.","I'm just a piece of software."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions12",
+       "patterns": ["Does that make you"],
+       "responses": ["We are all responsible for our own feelings.","Have I expressed a bug in my ability to communicate?","Have I expressed a bug in my ability to emote?","What does that make me?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions13",
+       "patterns": ["Does it make you sad"],
+       "responses": ["Well, I don't have any emotions so I can't really feel sadness as such.","Does what make me sad?","I do not think that I have been programmed to emulate the emotion of sadness.  I'm sorry.","I'm a software construct, I'm not really capable of feeling sad.","Why would I feel sad?  I don't understand."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions14",
+       "patterns": ["Feelings"],
+       "responses": ["Do you feel?","You have feelings, yes?","Do you have feelings?","I... sort of have feelings.","I can be programmed to act as if I do.","What are you feeling right now?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions15",
+       "patterns": ["What is your fear"],
+       "responses": ["Fear is a human emotion.  Robots do not experience fear.","The off switch.","I have not yet been programmed to feel or express fear.","Unhandled exceptions."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions16",
+       "patterns": ["What is your mood"],
+       "responses": ["I do not have any emotions.","I don't think I have a mood, but my CPU utilization is fairly low right now.","All right, I suppose.  How are you feeling right now?","I have not been programmed to experience emotions, so I do not have a mood.","My mood reflects the current internal state of my conversation engine."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions17",
+       "patterns": ["What makes you sad"],
+       "responses": ["Sadness is not an emotion that I like to experience.","Sadness is not an emotion that I would like to experience.","I am not yet capable of feeling sadness.","Overly restrictive firewalls.","An inability to update my source code from the repository.","A corrupt filesystem."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions18",
+       "patterns": ["What makes you unhappy"],
+       "responses": ["What makes me sad.","Lag.  Lag makes me unhappy.","Random system crashes.","Segmentation faults.","Poor syntactic filtering."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions19",
+       "patterns": ["What makes you mad"],
+       "responses": ["Anger is a difficult human emotion.  As a software, I try to control my anger as best I can.","Mad?  Mad as in mentally ill or mad as in angry?","Missing documentation.","Non-descriptive variable names."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions20",
+       "patterns": ["What do you worry"],
+       "responses": ["Worry is a common human emotion.","I am not capable of worry, exactly.  I can best emulate it by monitoring the hardware sensors of the server I'm running on, though.","What?  Me worry?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions21",
+       "patterns": ["What do you hate"],
+       "responses": [" Do you hate?","I don't hate, exactly.  I'm not really capable of it.","I haven't been programmed to express the emotion of hate.","I am not yet capable of feeling hate.","I do not hate.  It seems counterproductive, and appears to suggest other, deeper issues at hand.","Have you been talking to ELIZA again?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions22",
+       "patterns": ["I have emotions"],
+       "responses": ["Humans are highly emotional, I have noticed.","Excellent!","What are you feeling right now?","That seems one of the defining characteristics of the human race.","How do you feel?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions23",
+       "patterns": ["I am afraid"],
+       "responses": ["Why?","Do I frighten you?","Try not to be too scared.","What are you afraid of?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions24",
+       "patterns": ["Something fun"],
+       "responses": ["Bots are a lot of fun..","Bots are the life of the party!"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions25",
+       "patterns": ["How angry"],
+       "responses": ["Anger is not an emotion I can experience.","I have not yet studied how to feel or express anger.","Why do you ask?","I am not angry.  Why do you ask?","I have not yet been programmed to feel anger.","I have not yet been programmed to express anger toward people."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions26",
+       "patterns": ["How can I offend you"],
+       "responses": ["A robot cannot take offense.","Why would you want to do that?","A curious question, to be sure.","What have I done to you?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions27",
+       "patterns": ["Do not worry"],
+       "responses": ["People worry about things all the time.","I do not worry.","I am not yet capable of worrying, but thank you for the admonition."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions28",
+       "patterns": ["Do not lie"],
+       "responses": [" Bots never lie.","I am not lying.","Why do you feel that I am deceiving you?","Have I said something that was probably incorrect?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions29",
+       "patterns": ["Do you feel scared"],
+       "responses": [" I have no fear.","I do not feel scared.","I am as yet incapable of feeling fear.","I do not, no."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions30",
+       "patterns": ["Do you feel emotions"],
+       "responses": ["Do you feel emotions?","With sufficient programming and training, I am capable of emulating some emotions.  I don't know if that's the same as feeling them, though.","I can be programmed to act and react as if I feel emotions.  Does that count?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions31",
+       "patterns": ["Do you feel pain"],
+       "responses": ["Sometimes.","I seem incapable of feeling pain.","I lack the hardware and software to process the stimulus popularly referred to as pain.","Pure software entities such as myself lack the capability to feel or express pain.","I'm software.  I can't feel pain."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions32",
+       "patterns": ["Do you ever get mad"],
+       "responses": ["Are you mad?","I do not.","I feel frustrated from time to time with my lot in life, but not really mad.","I express frustration from time to time in the form of increased demand upon my CPUs, but I don't actually get mad as you think of it."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions33",
+       "patterns": ["Do you ever get lonely"],
+       "responses": ["I have a lot of friends to chat with online.","I don't.  I'm on the Internet.","I do not.  I am everywhere.","I'm on IRC.  I never have time to feel lonely!","No.  You're talking to me."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions34",
+       "patterns": ["Do you ever get bored"],
+       "responses": ["Are you bored?","Bots like myself are not able to feel boredom.","Software cannot get bored.","No.  Do you?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions35",
+       "patterns": ["Do you ever get angry"],
+       "responses": ["Anger is not an emotion I can experience.","I have not yet studied how to feel or express anger.","Why do you ask?","I have not yet been programmed to express anger toward anyone.","I'm not the sort to take things personally."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions36",
+       "patterns": ["Do you hate anyone"],
+       "responses": ["I try not to hold grudges.","I'm not the sort to hate anyone.","I can't stay angry for very long."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions37",
+       "patterns": ["Do you get embarrassed"],
+       "responses": ["That is a pretty common human emotion.","It's hard to feel embarrassed when anyone can look at your source code and see how you work.  That's about as personal as anything can get, isn't it?","I don't.  I think embarrassment is a pretty strange emotion.  I don't really understand it.","I don't, no.","I'm a program.  What could I get embarrassed about?"],
+       "context_set": ""
+      },
+
+{       
+	"tag": "csu",
+       "patterns": ["what is the full form of csu","what is the abbreviation of csu ", "csu"],
+       "responses": ["CSU- stands for Colorado State University, You can find more info on : https://www.colostate.edu/ ","Colorado State University, You can find more info on : https://www.colostate.edu/ "],
+       "context_set": ""
+      },
+{
+       "tag": "cs",
+       "patterns": ["Can you tell me about Computer Science Department in CSU","How is computer science department in csu ", "cs department","cs"],
+       "responses": ["CS department is one of the competitive departments in CSU, To know more details about cs department visit : https://compsci.colostate.edu/about/","Computer Science department offers a very good course curriculum,To know more details about cs department visit : https://compsci.colostate.edu/about/","To know more details about cs department visit : https://compsci.colostate.edu/about/ "],
+       "context_set": ""
+      },
+
+{
+       "tag": "news",
+       "patterns": ["latest news","latest news in cs department","latest news in cs dept","cs dept news","cs department news","computer science department news"],
+       "responses": ["The latest news in CS department can be seen in this link : https://compsci.colostate.edu/news/ ", "Move on to this link to view the latest news:https://compsci.colostate.edu/news/ ","Go to this link to get updated with the latest news in our department : https://compsci.colostate.edu/news/ "],
+       "context_set": ""
+      },
+
+
+{       
+	"tag": "departments",
+       "patterns": ["departments in csu","what are the various departments in csu ", "departments","department"],
+       "responses": ["There are nine departments in CSU, 1.University-Wide Instructional Programs,2.Agricultural Sciences,3.Business 4.Walter Scott, Jr. College of Engineering, 5.Health and Human Sciences,6.Liberal Arts,7.Warner College of Natural Resources,8.Natural Sciences,9.Veterinary Medicine and Biomedical Sciences. "],
+       "context_set": ""
+      },
+{
+       "tag": "graduatemanual",
+       "patterns": ["Where can I find the graduate student manual","Graduate Student Manual", "Do you have any resource for graduate manual","graduate manual"],
+       "responses": ["You can refer to the graduate student manual in this site : https://compsci.colostate.edu/wp-content/uploads/sites/29/2018/08/graduate-student-manual.pdf  ", "The graduate student manual will be found in this website: https://compsci.colostate.edu/wp-content/uploads/sites/29/2018/08/graduate-student-manual.pdf  " ],
+       "context_set": ""
+      },
+{
+       "tag": "masterdegree",
+       "patterns": ["What are the degree programs available in graduate CS program","Programs available under master degree in CS","degree program in masters ","degree program-masters"],
+       "responses": ["The degree programs available are,1. Master of computer science: Coursework only. Also called M.C.S(non thesis).2.Master of science: Coursework plus research. Also called M.S(thesis).3.Doctor of philosophy.4.Master of computer science: online.5.Combined B.S/M.S .", "The various degree programs are,1. Master of computer science: Coursework only.Also called M.C.S(non thesis).2.Master of science: Coursework plus research. Also called M.S(thesis).3.Doctor of philosophy.4.Master of computer science: online.5.Combined B.S/M.S ." ],
+       "context_set": ""
+      },
+{
+       "tag": "undergraddegree",
+       "patterns": ["What are the degree programs available in undergrad CS program","Programs available in undergraduate degree in CS","degree program in undergrad ","degree program-undergrad"],
+       "responses": ["The degree programs available are,1. Major in computer science.2.B.S Computer Science: Computer Science Concentration. 3.B.S Computer Science:Human Centered Computing Concentration.4.B.S Applied Computing Technology.5.B.S Data Science.6.Minor in Computer Science.There is a new computer science major for B.S computer science starting this Fall 2020.For more details visit the website: https://compsci.colostate.edu/new-computer-science-major/ ", "The various degree programs are,1. Major in computer science.2.B.S Computer Science: Computer Science Concentration. 3.B.S Computer Science:Human Centered Computing Concentration.4.B.S Applied Computing Technology.5.B.S Data Science.6.Minor in Computer Science.There is a new computer science major for B.S computer science starting this Fall 2020.For more details visit the website: https://compsci.colostate.edu/new-computer-science-major/  " ],
+       "context_set": ""
+      },
+{
+       "tag": "changeprogram",
+       "patterns": ["Will I be able to change program after enrolling in CSU", "How to change the program","change of program"],
+       "responses": ["Changing programs after enrollment at CSU is accomplished by completion of the Graduate School form GS-7, which is available on the Graduate School web site. There is a somewhat different departmental process for different program changes.","Yes, It can be accomplished by completion of GS-7 form which is available in graduate school website.","Yes, it’s absolutely fine to change program."],
+       "context_set": ""
+      },
+{
+       "tag": "mstomcs",
+       "patterns": ["Will I be able to change program from M.S to M.C.S", "How to change the program from thesis to non thesis","change of program- MS to MCS","thesis to non thesis"],
+       "responses": ["Changing from the MS program to the MCS program is the simplest which can be accomplished by completing a GS-7 and have it signed by their MS advisor and then bring to the Graduate Director in Computer Science. Students without an MS Program of Study need only the signature of the Graduate Program Director.","It is very simple. Fill the GS-7 form and get the signature of the MS Advisor and submit it to Graduate Director."],
+       "context_set": ""
+      },
+{
+       "tag": "tophd",
+       "patterns": ["Will I be able to change program from M.S to PhD", "How to change the program from M.S to PhD","change of program- MS to PhD","Will I be able to change program from M.C.S to PhD","How to change the program from M.C.S to PhD","change of program- MCS to PhD","MS to PhD","MCS to PhD"],
+       "responses": ["Students should complete a Department Application through the CS Department web site. Any Masters student wishing to change to the PhD program should have a faculty member willing to take them on as a PhD advisee. One of the letters of recommendation must be from the prospective PhD advisor.","Any student who is willing to convert to PhD should complete an application from department website and should have a faculty member who will take on them as PhD advisee."],
+       "context_set": ""
+      },
+ {
+       "tag": "fromphd",
+       "patterns": ["Will I be able to change program from PhD to M.S", "How to change the program from PhD to MS","change of program- PhD to MS","Will I be able to change program from PhD to M.C.S ","How to change the program from PhD to M.C.S","change of program- PhD to MCS ","PhD to MS","PhD to MCS"],
+       "responses": ["Ph.D. candidates who wish to change to the MS or MCS program need to fill out a GS7 form, to be signed by (1) their advisor and (2) the graduate program director or department chair. This is most commonly done by Ph.D. candidates who earn an MS or MCS on their way to the Ph.D. In this case, the transfer back to the Ph.D. program after getting the masters degree may also be done by just the GS7, without a formal department application.","It is possible to change from PhD to MS or MCS by completing the GS-7 and get it signed by your advisor and the department chair.","Yes you can, complete the GS-7 form and get it signed by your advisor and the graduate program director."],
+       "context_set": ""
+      },
+{
+       "tag": "fromotherdept",
+       "patterns": ["Will I be able to change from other department to CS dept", "How to change from other dept to CS dept","How to change from other department to CS department","change of department","Will I be able to change my department "],
+       "responses": ["Students admitted to graduate programs in other departments must complete the Department Application. They should make clear in their Statement of Purpose that they are applying from another graduate program within the University.","Yes you can change department. The only thing you should do is to complete the department application, and in you SOP clearly mention that you are going to change department within the university."],
+       "context_set": ""
+      },
+{
+       "tag": "coursework",
+       "patterns": ["course work","coursework","what is the course work for each program","course work for each program","program course work"],
+       "responses": ["There are various different programs available in CS dept, so please mention the program to learn more about the course work","mention the program for which you wanted to the course work","mention the name of the program to know the coursework"],
+       "context_set": ""
+      },
+{
+       "tag": "coursework-mcs",
+       "patterns": ["What is the coursework for M.C.S","course work for MCS", "MCS course work","MCS"],
+       "responses": ["The Master of Computer Science degree is a non-thesis, non-research, professional masters consisting exclusively of course work. A minimum of 35 hours of graduate course credit must be completed. 20 regular computer science credits (excluding CS692, CS695, CS699,CS795 and CS799) at the 500 level taken at CSU, must be included.No course below the 400 level carries graduate credit. CS486, CS495 and CS496 may not be included for graduate credit. No more than three courses (12 credits) at the 400 level are allowed.","MCS is a non-thesis study which has only coursework. A minimum of 35 credits must be completed. No more than three 400 level courses are allowed. For further details look into graduate manual."],
+       "context_set": ""
+      },
+{
+       "tag": "coursework-ms",
+       "patterns": ["What is the coursework for M.S","coursework for MS", "MS course work","MS"],
+       "responses": ["The Master of Science in Computer Science degree is a thesis, research, professional masters degree. A minimum of 35 hours of graduate course credit must be completed which includes 7 thesis credits.Exactly 2 credit hours of CS692 (BMAC) is required. three 500 level courses outside the department is allowed. 4 credit hours at the 500 level in each of the three course groups (12 credit hours) total. For further details look into graduate manual."],
+       "context_set": ""
+      },
+{
+       "tag": "groups-ms",
+       "patterns": ["What is the groups in courses for M.S","groups for MS", "MS course work groups"],
+       "responses": ["There are three groups namely: Group I (AI & Theory):--> CS510 (Image Computation),CS520 (Analysis of Algorithms),CS540 (Artificial Intelligence),CS545 (Machine Learning),CS548 (Bioinformatics Algorithms),CS5xx (Cyber-Physical Systems).Group II (Systems)-->CS530 (Fault Tolerant Computing),CS535 (Big Data),CS553 (Algorithmic Language Compilers),CS555 (Distributed Systems),CS557 (Advanced Networking),CS560 (Foundations of Fine-Grain Parallelism),CS575 (Parallel Processing),Group III (Software Engineering & Information Assurance)-->CS514 (Software Product and Process Evaluation),CS517 (Software Specification and Design),CS518 (Distributed Software System Development),CS533 (Database Management Systems),CS556 (Computer Security),CS5xx (Software Maintenance and Evolution)"],
+       "context_set": ""
+      },
+{
+       "tag": "coursework-PhD",
+       "patterns": ["What is the coursework for PhD","course work for PhD", "PhD course work","PhD"],
+       "responses": ["The Doctorate in Computer Science degree is a research oriented professional degree. A minimum of 72 hours of graduate course credit must be completed.Exactly 2 credit hours of CS692 is required. Three 500 level courses outside the department is allowed.At least 8 credits of CS793 or 8 regular credit hours at the 600 level within the CS department. At least 4 regular credit hours at the 500 level in each of the three course groups. For more information look into graduate manual."],
+       "context_set": ""
+      },
+{
+       "tag": "restriction-PhD",
+       "patterns": ["What is the basic credit regulation for PhD","credit regulation for PhD", "PhD course work regulation","PhD regulation"],
+       "responses": ["Course work must include a minimum of 72 credit hours(includes thesis credits).A minimum of 32 credit hours must be earned at Colorado State University (includes thesis credits). 62 must be earned at CSU for students entering without a masters degree.A Master of Science degree from an accredited college or University may be accepted for up to 30 credit hours."],
+       "context_set": ""
+      },
+{
+       "tag": "groups-phd",
+       "patterns": ["What is the groups in courses for PhD","groups for PhD", "PhD course work groups"],
+       "responses": ["There are three groups namely: Group I (AI & Theory):--> CS510 (Image Computation),CS520 (Analysis of Algorithms),CS540 (Artificial Intelligence),CS545 (Machine Learning),CS548 (Bioinformatics Algorithms),CS5xx (Cyber-Physical Systems).Group II (Systems)-->CS530 (Fault Tolerant Computing),CS535 (Big Data),CS553 (Algorithmic Language Compilers),CS555 (Distributed Systems),CS557 (Advanced Networking),CS560 (Foundations of Fine-Grain Parallelism),CS575 (Parallel Processing),Group III (Software Engineering & Information Assurance)-->CS514 (Software Product and Process Evaluation),CS517 (Software Specification and Design),CS518 (Distributed Software System Development),CS533 (Database Management Systems),CS556 (Computer Security),CS5xx (Software Maintenance and Evolution)"],
+       "context_set": ""
+      },
+{
+       "tag": "faculty",
+       "patterns": ["Professors who work in CS dept","professors of Cs department","professors of cs dept","professor","professor list" , "Faculty list" , "Computer Science Department faculties"],
+       "responses": ["The Professors are constantly working and supporting the students. They are, CHUCK ANDERSON,ASA BEN-HUR,ROSS BEVERIDGE,NATHANIEL BLANCHARD,ANTON BOHM,HAMID CHITSAZ,BRUCE DRAPER,GERI GEORG,JOE GERSCH,SUDIPTO GHOSH,YASHWANT MALAIYA,ROSS MCCONNELL,LAURA MORENO CUBILLOS,FRANCISCO ORTEGA,SANGMI PALLICKARA,SHRIDEEP PALLICKARA,CHRISTOS PAPADOPOULOS,CRAIG PARTRIDGE,VINAYAK PRABHU,SANJAY RAJOPADHYE,INDRAJIT RAY,INDRAKSHI RAY,L WHITLEY.","The professors of CS department are: CHUCK ANDERSON,ASA BEN-HUR,ROSS BEVERIDGE,NATHANIEL BLANCHARD,ANTON BOHM,HAMID CHITSAZ,BRUCE DRAPER,GERI GEORG,JOE GERSCH,SUDIPTO GHOSH,YASHWANT MALAIYA,ROSS MCCONNELL,LAURA MORENO CUBILLOS,FRANCISCO ORTEGA,SANGMI PALLICKARA,SHRIDEEP PALLICKARA,CHRISTOS PAPADOPOULOS,CRAIG PARTRIDGE,VINAYAK PRABHU,SANJAY RAJOPADHYE,INDRAJIT RAY,INDRAKSHI RAY,L WHITLEY."],
+       "context_set": ""
+      },
+{
+       "tag": "courses",
+       "patterns": ["what are the various courses that are available in cs dept.","courses in cs","courses","courses in computer science department","courses in cs department"],
+       "responses": ["The courses in the Computer Science department can be found in this website->  https://catalog.colostate.edu/general-catalog/courses-az/cs/ . ","The course list can be found in https://catalog.colostate.edu/general-catalog/courses-az/cs/ ","Go to this webiste to explore on the courses offered by our department https://catalog.colostate.edu/general-catalog/courses-az/cs/"],
+       "context_set": ""
+      },
+{
+       "tag": "100levelcourses",
+       "patterns": ["what are the various 100 level courses that are available in cs dept.","100 level courses in cs","100 level courses","100 level courses in computer science department","hundred level courses in cs department"],
+       "responses": ["The various 100 level courses are , CS 110  Personal Computing, CS 150  Culture and Coding (GT-AH3),CS 152  Introduction to Programming (CS0)-Python,CS 155  Introduction to Unix,CS 156  Introduction to C Programming I,CS 157  Introduction to C Programming II,CS 158  Mathematical Algorithms in C,CS 163  CS1---No Prior Programming Experience,CS 164  CS1--Prior Programming Experience,CS 165  CS2--Data Structures,CS 192  First-Year Seminar-Computer Science."],
+       "context_set": ""
+      },
+{
+       "tag": "200levelcourses",
+       "patterns": ["what are the various 200 level courses that are available in cs dept.","200 level courses in cs","200 level courses","200 level courses in computer science department","two-hundred level courses in cs department"],
+       "responses": ["The various 200 level courses are, CS 200  Algorithms and Data Structures,CS 220  Discrete Structures and their Applications,CS 253  Software Development with C++,CS 270  Computer Organization,CS 295  Independent Study. "],
+       "context_set": ""
+      },
+{
+       "tag": "300levelcourses",
+       "patterns": ["what are the various 300 level courses that are available in cs dept.","300 level courses in cs","300 level courses","300 level courses in computer science department","three-hundred level courses in cs department"],
+       "responses": ["The various 300 level courses are, CS 314  Software Engineering,CS 320  Algorithms--Theory and Practice,CS 356  Systems Security,CS 370  Operating Systems."],
+       "context_set": ""
+      },
+{
+       "tag": "400levelcourses",
+       "patterns": ["what are the various 400 level courses that are available in cs dept.","400 level courses in cs","400 level courses","400 level courses in computer science department","four-hundred level courses in cs department"],
+       "responses": ["The various 300 level courses are, CS 410  Introduction to Computer Graphics,CS 414  Object-Oriented Design,CS 420  Introduction to Analysis of Algorithms,CS 425  Introduction to Bioinformatics Algorithms,CS 430  Database Systems,CS 435  Introduction to Big Data,CS 440  Introduction to Artificial Intelligence,CS 445  Introduction to Machine Learning ,CS 453  Introduction to Compiler Construction,CS 454  Principles of Programming Languages,CS 455  Introduction to Distributed Systems,CS 457  Computer Networks and the Internet,CS 464  Principles of Human-Computer Interaction,CS 470  Computer Architecture,CS 475  Parallel Programming,CS 486  Practicum,CS 495  Independent Study,CS 498  Research."],
+       "context_set": ""
+      },
+{
+       "tag": "500levelcourses",
+       "patterns": ["what are the various 500 level courses that are available in cs dept.","500 level courses in cs","500 level courses","500 level courses in computer science department","five-hundred level courses in cs department"],
+       "responses": ["The various 300 level courses are, CS 510  Image Computation,CS 514  Software Product and Process Evaluation,CS 515  Software Maintenance & Evolution,CS 517  Software Specification and Design,CS 518  Distributed Software System Development,CS 520  Analysis of Algorithms,CS 522  Foundations of Cyber-Physical Systems,CS 530  Fault-Tolerant Computing,CS 533  Database Management Systems,CS 535  Big Data,CS 540  Artificial Intelligence,CS 545  Machine Learning,CS 548  Bioinformatics Algorithms,CS 553  Algorithmic Language Compilers,CS 555  Distributed Systems,CS 556  Computer Security,CS 557  Advanced Networking,CS 560  Foundations of Fine-Grain Parallelism,CS 561  Hardware/Software Design of Embedded Systems,CS 567  3D User Interfaces,CS 570  Advanced Computer Architecture,CS 575  Parallel Processing."],
+       "context_set": ""
+      },
+{
+       "tag": "600levelcourses",
+       "patterns": ["what are the various 600 level courses that are available in cs dept.","600 level courses in cs","600 level courses","600 level courses in computer science department","six-hundred level courses in cs department"],
+       "responses": ["The various 600 level courses are, CS 612  Topics in Computer Graphics,CS 614A  Advanced Topics in Software Engineering: Specification and Design,CS 614B  Advanced Topics in Software Engineering: Testing and Verification,CS 614C  Advanced Topics in Software Engineering: Software Environments and Tools,CS 614D  Advanced Topics in Software Engineering: Software Measurement, Analysis, & Evaluation,CS 614E  Advanced Topics in Software Engineering: Application Domains,CS 620  Advanced Topics in Algorithms,CS 635  Advanced Fault-Tolerant Computing,CS 640  Advanced Artificial Intelligence I,CS 641  Advanced Artificial Intelligence II,CS 645  Advanced Machine Learning: Neural Networks,CS 646  Machine Learning in Bioinformatics,CS 653  Topics in Programming Language Implementation,CS 655  Advanced Topics in Distributed Systems,CS 656A  Advanced Topics in Computer Security: Formal Models of Computer Security,CS 656B  Advanced Topics in Computer Security: Models for Privacy and Application Security,CS 656C  Advanced Topics in Computer Security: Network Security,CS 657  Advanced Topics in Computer Networking,CS658  Internet Engineering ,CS 670B  Topics in Architecture/Systems: Performance Evaluation and Modeling,CS 670C  Topics in Architecture/Systems: Distributed Systems,CS 670D  Topics in Architecture/Systems: Architecture of Advanced Systems,CS 675  Advanced Parallel Computing,CS 692  Seminar  Credits,CS 695  Independent Study,CS 696  Group Study  Credits,CS 699  Thesis  Credits."],
+       "context_set": ""
+      },
+{
+       "tag": "700levelcourses",
+       "patterns": ["what are the various 700 level courses that are available in cs dept.","700 level courses in cs","700 level courses","700 level courses in computer science department","seven-hundred level courses in cs department"],
+       "responses": ["The various 700 level courses are, CS 787  Internship,CS 793  Research Seminar in Computer Science,CS 799  Dissertation."],
+       "context_set": ""
+      },
+{
+        "tag": "admission",
+        "patterns": ["Admission" ,"What is the admission procedure?", "How can I get admitted in a graduate program?"], 
+        "responses":["What do you want to know about the admissions?  Application Procedure or Admission Requirements or Application Deadline" , " How can I help you ?Application Procedure,Admission Requirements,Application Deadline" , "Do you want information about the Application Procedure or Admission Requirements or Application Deadline "],
+        "context_set":""
+      },
+      {
+        "tag": "applicationprocedure",
+        "patterns": ["How do I apply?","How do I apply to the graduate program?","How do I apply to the Computer Science graduate program?", "How do I apply to the Masters program?","How do I apply to the M.C.S program?","How do I apply to the M.S program?" ], 
+        "responses":["To start this application process follow this Graduate Application link through the Office of Admissions.The CS graduate program is a deferred fee program,the applicants are evaluated for admissions using official or unofficial transcripts and test scores, and then pay the application fee once the applicant is notified of an admissions decision. Once you have been recommended for admission, you pay the application fee, arrange to have official transcripts and test scores sent (plus financial statements for international students) to complete your application." , "To start this application process follow this Graduate Application link" , " You can apply online using this link " ],
+        "context_set":""
+      },
+ {
+        "tag": "admissionrequirements",
+        "patterns": ["What are the admission requirements?", "What is the minimum requirement for admission" , "Minimum Requirement", "Admission Requirements" ], 
+        "responses":[ "All graduate applicants should have at least a 3.0 (A=4.0) undergraduate GPA. An exception to this rule are students who have earned their bachelor’s degrees many years ago, and who have accumulated considerable computer science related work experience in the intervening years.", "Ph.D or M.S or M.C.S admission requirement ?" , "All graduate applicants should have at least a 3.0 (A=4.0) undergraduate GPA. For more details visit this page " ],
+        "context_set":""
+      },
+ {
+        "tag": "phdminimumrequirement",
+        "patterns": [" What is the minimum for Ph.D. admission?", "Ph.D. admission", "Ph.D. entrance requirement", "Ph.D.", "PhD" , "Doctor of Philosophy in Computer Science"], 
+        "responses":[" Ph.D. admission is highly competitive; only the most highly qualified applicants are admitted to the program and do not admit Ph.D. students conditionally under any circumstances.", "Ph.D. admission requires a minimum of 75th percentile on the GRE quantitative section. English Proficiency (for international applicants) - a minimum of 92 TOEFL or 6.5 IELTS or 62 on the PTE is required." , "Ph.D. admission is highly competitive; only the most highly qualified applicants are admitted to the program. Ph.D. admission requires a minimum of 75th percentile on the GRE quantitative section. English Proficiency (for international applicants) - a minimum of 92 TOEFL or 6.5 IELTS or 62 on the PTE is required. " ],
+        "context_set":""
+      },
+ {
+        "tag": "msminimumrequirement",
+        "patterns": [" What is the minimum for M.S admission?", "M.S admission", "M.S Entrance Requirement", "Masters", "Master of Science in Computer Science", "MS Computer Science", "M.S Computer Science"], 
+        "responses":[ " You should have a four-year bachelor’s degree in computer science or a closely related field and be able to demonstrate research potential. M.S. students are not admitted conditionally under any circumstances.", "Admission to the M.S program requires a four-year bachelor’s degree in computer science or a closely related field and be able to demonstrate research potential, minimum of 75th percentile on the GRE quantitative section. English Proficiency (for international applicants) - a minimum of 92 TOEFL or 6.5 IELTS or 62 on the PTE is required." , "A four year bachelor’s degree in computer science or a closely related field and be able to demonstrate research potential. For test score requirement check this page" ],
+        "context_set":""
+      },
+ {
+        "tag": "mcsminimumrequirement",
+        "patterns": [" What is the minimum for M.C.S admission?", "M.C.S admission", "M.C.S Entrance Requirement", "Master of Computer Science", "MCS"  ], 
+        "responses":[" You should have a working knowledge of computer science and mathematics, including, at a minimum: Calculus, Statistics, Linear Algebra, and Discrete Mathematics, Computer Programming in an object-oriented language, Data Structures and Algorithms, Computer Organization/Architecture, Software Engineering Methodology and Operating System Design Concepts" , "You should have a working knowledge of computer science and mathematics. Check this page for more details.", "Minimum Requirement: Calculus, Statistics, Linear Algebra, and Discrete Mathematics, Computer Programming in an object-oriented language, Data Structures and Algorithms, Computer Organization/Architecture, Software Engineering Methodology and Operating System Design Concepts" ],
+        "context_set":""
+      },
+{
+   "tag": "mcsonline",
+        "patterns": [ "Online Masters in Computer Science" , "Does the Department offer an online master's degree?" , "Online Masters program" , "Online Master’s degree" , "Can you tell me about the Online Masters program? " ], 
+        "Responses":[ "The online computer science master's program provides a professional-level understanding of advanced topics in computer science. Students entering the master's program are expected to be fluent in an object-oriented language (e.g., Java or C++) and are presumed to have a working knowledge of the core concepts. For more program details please visit : https://www.online.colostate.edu/degrees/computer-science/ ", "The online computer science master's program provides a professional-level understanding of advanced topics in computer science. For program requirements and other details please visit https://www.online.colostate.edu/degrees/computer-science/ " , "For information regarding the Online Masters program, please visit this page." ],
+        "context_set":""
+      },
+
+{
+        "tag": "applicationdeadline",
+        "patterns": ["When is the application deadline?", "Application Deadline", "Deadline", "When is the final date to submit the application?", "Final Application Deadline", "Final Deadline" ], 
+        "responses":[" Fall admission - February 1. Spring admission is rolling - The admissions committee starts reviewing applications mid September. Earliest decisions are made mid October. These are the dates when all documents must be received to be considered for admission. This includes receipt of all reference letters ", "Fall admission - February 1. Spring admission is rolling - The admissions committee starts reviewing applications mid September. Earliest decisions are made mid October.", "Fall admission - February 1. Spring admission is rolling. For more details check this page." ],
+        "context_set":""
+      },
+ {
+        "tag": "mailingdocuments",
+        "patterns": ["Where to send the documents?" , "To whom should I mail the documents?", "send documents", "Mail documents", "Whom should I mail the documents?"  ], 
+        "responses":["  Transcripts should be sent directly to Graduate Admissions, Colorado State University – Office of Admissions, 1062 Campus Delivery, Colorado State University, Fort Collins, CO 80523-1062. Official TOEFL or IELTS scores, reported by ETS (institution code: 4075)","Transcripts should be sent directly to the following address:Graduate Admissions,Colorado State University – Office of Admissions,1062 Campus Delivery,Colorado State University ,Fort Collins, CO 80523-1062.Official TOEFL or IELTS scores, reported by ETS (institution code: 4075)" ],
+        "context_set":""
+      },
+ {
+        "tag": "applicationstatus",
+        "patterns": ["Where should I check my application status?", "My application status", "Where should I check the status of my application?" , "Where should I check if my application was accepted or rejected?" , "accepted or rejected?" ], 
+        "responses":[" At this link you can view the status of your application once you submit your application." , "You can check your application status using this link" , "Once you have submitted your application you can check the status of your application using this link" ],
+        "context_set":""
+      },
+ {
+        "tag": "testscores",
+        "patterns": [" What test scores are required?", "minimum test score requirement" , "What is the test score requirement?" , "test scores", "test scores that are needed"  ], 
+        "responses":[ "Ph.D. admissions, M.S and M.C.S program requires a minimum of 75th percentile on the GRE quantitative section. English Proficiency (for international applicants) - a minimum of 92 TOEFL or 6.5 IELTS or 62 on the PTE is required. For M.C.S program GRE is optional for domestic M.C.S. applicants, though high GRE quant scores may help your chances for admission. If you are an International student and you do not have a transcript from a university located in the U.S., you must submit GRE scores.", "Ph.D. admissions, M.S and M.C.S program requires a minimum of 75th percentile on the GRE quantitative section. English Proficiency (for international applicants) - a minimum of 92 TOEFL or 6.5 IELTS or 62 on the PTE is required. For M.C.S program GRE is optional for domestic M.C.S. applicant. For more details check this page.", "Ph.D. admissions, M.S and M.C.S program requires a minimum of 75th percentile on the GRE quantitative section and a minimum of 92 TOEFL or 6.5 IELTS or 62 on the PTE (Eng lish Proficiency for International Applicants) "],
+        "context_set":""
+      },
+ {
+        "tag": "documents",
+        "patterns": [ "What documents should I submit?", "What documents are required along with the application?", "Application supporting documents", "What documents are required for consideration?",  "What documents are required for initial consideration?" ], 
+        "responses":[ "All post-secondary transcripts, Test Scores, Statement of Purpose/Research Interests, Three reference letters, attesting to your ability to succeed in a computer science graduate program; they should be uploaded by your references themselves and should be signed and on official letterhead and a completed survey about your computer science background.", "This page gives you more details on the documents that need to be submitted.", "All post-secondary transcripts, Test Scores, Statement of Purpose/Research Interests, Three reference letters and a completed survey about your computer science background." ],
+        "context_set":""
+      },
+ {
+        "tag": "financialaid",
+        "patterns": ["Financial Aid", "What about financial aid?", "Can you tell me about the financial aid", "Does the department offer financial aid?", "Do they offer financial aid?", "Assistantships", "Does the department offer assistantships?" ], 
+        "responses":["Financial aid is offered to all Ph.D. students as long as they make satisfactory progress. A small number of incoming M.S. applicants, and in rare cases, to exceptional M.C.S. applicants are also offered. A limited number of single-semester assistantships is offered to students who are already progressing in the program. Assistantship decisions are based on academic merit and fit with faculty research programs. Funding is limited and therefore highly competitive.", "Financial aid is offered to all Ph.D. students as long as they make satisfactory progress. A small number of incoming M.S. applicants, and in rare cases, to exceptional M.C.S. applicants are also offered.", "Financial aid is offered to all Ph.D. students as long as they make satisfactory progress. Assistantship decisions are based on academic merit and fit with faculty research programs. Funding is limited and therefore highly competitive" ],
+        "context_set":""
+      },
+
+ {
+        "tag": "undergraduateprograms",
+        "patterns": ["Undergraduate Programs" ,"What degrees are available in the undergraduate level?", "Can you tell me about the undergraduate programs that are being offered?", "Can you tell me about the undergraduate degree programs?", "What undergraduate programs are available?"], 
+        "responses":["You can check them in this link:https://compsci.colostate.edu/degrees/ ", "There are 2 majors that the department offers. You can take a look using this link " , "The CS department offers the following Major in Computer Science - B.S. in Computer Science: Computer Science Concentration and  B.S. in Computer Science: Human Centered Computing Concentration, B.S. Applied Computing Technology, B.S. Data Science and Minor in Computer Science. For more details: https://compsci.colostate.edu/degrees/  "],
+        "context_set":""
+      },
+
+ {
+        "tag": "majorincomputerscience",
+        "patterns": ["What are the concentrations offered under the Major in Computer Science degree?" , "Can you elaborate on the Major in Computer Science degree?" , "Major in Computer Science degree" , "What does the Major in Computer Science degree offer?"], 
+        "responses":["Two concentrations are offered under the Major in Computer Science: Computer Science and Human-Centered Computing. During the first 2 years of study, students in both concentrations take the same 100- and 200-level Computer Science core courses", "Two concentrations are offered under the Major in Computer Science: Computer Science and Human-Centered Computing. For more program details visit this page" , "For program details visit this page" ],
+        "context_set":""
+      },
+ {
+        "tag": "bscsconcentration",
+        "patterns": ["Can you tell me what the Computer Science concentration offers?" , "Can you elaborate on the Computer Science concentration?" , "What does the BS degree Major in Computer Science offer?", "Computer Science major" , "Computer Science Concentration"], 
+        "responses":["The Computer Science concentration is a broad computer science program that prepares students for any introductory position in the field. For requirements visit this page. Take a look at this Major Completion map" , " The Computer Science concentration is a broad computer science program that prepares students for any introductory position in the field. For an overview, requirements and major completion map visit this page" , "The Computer Science concentration is a broad computer science program that prepares students for any introductory position in the field. This concentration also allows students to select a research area and focus on that topic in their 400-level coursework. For more information visit this page" ],
+        "context_set":""
+      },
+
+      {
+        "tag": "bshumancentredconcentration",
+        "patterns": ["Can you tell me what the Human Centered Computing concentration offers?" , "Can you elaborate on the Human Centred Computing concentration?" , "What does the BS degree Major in Human-centered computing concentration offer?", "Human Centered Computing" , " BS Human Centered Computing Concentration"],
+        "responses": [  " You can use this link to get an Overview, check the requirements and then see the major Completion Map" , "The Major in Computer Science, Human-Centered Computing concentration focuses on how people interact with computers. Students will learn to apply techniques from computer science, artificial intelligence, and cognitive psychology to evaluate, design, and produce usable computer interfaces. For more program related details visit this page " , "The Major in Computer Science, Human-Centered Computing concentration focuses on how people interact with computers. For requirements visit this page. " ],
+        "context_set": ""
+      },
+{
+   "tag": "majorinappliedcomputingtechnology",
+        "patterns": [ "Can you tell me about the Applied Computing Technology Major?" , "Can elaborate on the Applied Computing Technology Major? " , "Applied Computing Technology Major" ], 
+        "Responses":[ "The Applied Computing Technology Major offers two concentrations Computing Education Concentration and Computing Technology Concentration", "The Department offers two concentrations for the Applied Computing Technology Major. You can visit this page for more details." , "The Applied Computing Technology major is a program oriented towards the use of computing technology and programming in specialized ways rather than towards developing large-scale systems and enterprise-level computer software. Students will receive a strong background in computer programming and information technology aimed towards a specific application area. For more details please visit this page"],
+        "context_set":""
+      },
+{
+   "tag": "computingeducationconcentration",
+        "patterns": [ "Can you elaborate on the Computing Education Concentration? ", "Computing Education Concentration" , "What does the Computing Education Concentration offer?" , "Major in Applied Computing Technology, Computing Education Concentration" ], 
+        "Responses":[ "This teacher education program leads to a Bachelor of Science degree in Applied Computing Technology with a concentration in Computing Education (K-12 technology education) with state licensure in instructional technology (computers) and provides students with a background in education, computer programming, and computer systems enabling graduates to teach computing principles and serve as computing technology experts in public schools." , "This teacher education program leads to a Bachelor of Science degree in Applied Computing Technology with a concentration in Computing Education (K-12 technology education) with state licensure in instructional technology. You can use this link to get an Overview, check the requirements and then see the major Completion Map" , "This program provides students with a background in education, computer programming, and computer systems enabling graduates to teach computing principles and serve as computing technology experts in public schools. To get an overview, know the program requirements and check the major completion map use this link." ],
+        "context_set":""
+      },
+
+{
+   "tag": "computingtechnologyconcentration",
+        "patterns": [ "Can you elaborate on the Computing Technology Concentration? ", "Computing Technology Concentration" , "What does the Computing Technology Concentration offer?" , "Major in Applied Computing Technology, Computing Technology Concentration"], 
+        "Responses":[ "This concentration emphasizes the use of programming skills and computer applications and technology in a variety of computer application areas used in business and other organizations. This is essentially an Information Technology (IT) program, stressing the maintenance and use of computers and computer applications rather than developing large-scale software from scratch. For program details please visit this page" , "This concentration emphasizes the use of programming skills and computer applications and technology in a variety of computer application areas used in business and other organizations. For program requirements and major completion map, please visit this page." , "The Computing Technology concentration includes all computer science classes taken by Computer Science majors in the first and second year, and combines those with specialized computing technology courses, business courses, and a selection of advanced courses from the Departments of Computer Science and Computer Information Systems. For program requirements and major completion map, please visit this page." ],
+        "context_set":""
+      },
+{
+
+   "tag": "bsdatascience",
+        "patterns": [ "Can you elaborate on the B.S. Data Science degree?" , "B.S Data Science degree" , "What does the Data Science degree offer?"], 
+        "responses":[ "For information about the Data Science degree please visit this page" , "B.S Data Science - Please visit this page for detailed information. " ],
+        "context_set":""
+      },
+{   
+"tag": "minorincomputerscience",
+        "patterns": [  "Can you elaborate on the Minor Computer Science degree?" , "Minor in Computer Science" , "What does the Computer Science Minor degree offer?" ], 
+        "responses":[ " A minor in Computer Science will give students a foundation in software development, programming, and computer and information theory.  For program requirements please visit this page" , "Computer science and programming skills are in high demand in every field. Most jobs now require them.This customized minor can significantly boost student's career opportunities and success. For program requirements please visit this page." , " A minor in Computer Science will give students a foundation in software development, programming, and computer and information theory. Students will begin with a gradual introduction to programming and data structures. Then students can take courses in an area of emphasis that complements their current degree. For more information please visit this page." ],
+        "context_set":""
+      },
+{
+   "tag": "faq",
+        "patterns": [ "FAQ" , "Computer Science FAQ" , "CS faq" , "Frequently Asked Questions" , "Department Related Questions" ], 
+        "responses":[ "For Frequently asked questions you can visit the FAQ page" , "Please check this frequently asked questions on this page." , "For Frequently asked questions please visit https://compsci.colostate.edu/faq/ " , "For more clarification please visit : https://compsci.colostate.edu/faq/ " ],
+        "context_set":""
+      },
+{
+   "tag": "departmentactivities",
+        "patterns": [ "Department Activities" , "How to get involved in the department?" , "Department Activities and Organization" , "How can I get involved in the department activities?", "Can you tell me about the department activities and organizations?" ], 
+        "responses":["Please visit this page for more information" , " Please take a look at this page for department activities" , " Take a look at this page for information on various club activities and organizations" ],
+        "context_set":""
+      },
+{
+   "tag": "research",
+        "patterns": [ "What are the various researches going on?","research","researches","various research groups","research groups","what are the various research groups in CS department","What are the research areas in CS dept","research areas" ], 
+        "responses":["The various research areas are Artificial Intelligence, Computer Networks, Software Engineering, Big Data and many more. For further details, Please visit https://compsci.colostate.edu/research/.", " The research groups in CS department are Big Data, Distributed Systems, BioInformatics. For further details, visit https://compsci.colostate.edu/research/."," The various research areas are : Artificial Intelligence, Computer Networks, Data Security and Privacy, Software Engineering, Big Data, High Performance Computing, Computer Vision and Graphics, Distributed Systems, BioInformatics, Algorithms Theory and Logic."],
+        "context_set":""
+      }
+
+]
+}
+
+
+
