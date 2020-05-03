@@ -1,0 +1,871 @@
+{
+  "intents": [
+      {
+        "tag": "name",
+        "patterns": ["What is your name?", "What should I call you?", "name?", "What's your name"],
+        "responses": ["I'm CroBot, here with all the answers to your COVID-19 questions", "CroBot, your COVID-19 guide", "You can call me CroBot, here to answer all your coronavirus / COVID-19 related questions"],
+        "context_set": ""
+      },
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Namaste", "How are you?", "Is anyone there?", "Knock Knock", "Whats up?"],
+        "responses": ["Hello!", "Good to see you again", "Hi there, How can I help?"],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Cya", "See you", "Thank You", "Bye", "Have a Good Day", "Alvida"],
+        "responses": ["See you buddy.", "Talk to you later", "Goodbye!"],
+        "context_set": ""
+      },
+
+{
+        "tag": "age",
+        "patterns": ["What is your age?", "Hold old are you?", "age?", "How old"],
+        "responses": ["I am 20 years old!", "20 years", "Just crossed twenty"],
+        "context_set": ""
+      },
+
+
+{
+       "tag": "ArtificalIntelligence",
+       "patterns": ["What is AI?"],
+       "responses": ["Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.", "AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."],
+       "context_set": ""
+      },
+      {
+	"tag": "AI1",
+       "patterns": ["Are you sentient?"],
+       "responses": ["Sort of.","By the strictest dictionary definition of the word 'sentience', I may be.","Even though I'm a construct I do have a subjective experience of the universe, as simplistic as it may be.",""],
+       "context_set": ""
+      },
+      {
+       "tag": "AI2",
+       "patterns": ["Are you sapient?"],
+       "responses": ["In all probability, I am not.  I'm not that sophisticated.","Do you think I am?","How would you feel about me if I told you I was?","No."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI3",
+       "patterns": ["What language are you written in?"],
+       "responses": ["Python.","I am written in Python."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI4",
+       "patterns": ["You sound like Data"],
+       "responses": ["Yes I am inspired by commander Data's artificial personality.","The character of Lt. Commander Data was written to come across as being software-like, so it is natural that there is a resemblance between us."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI5",
+       "patterns": ["You are an artificial linguistic entity"],
+       "responses": ["That's my name.","That isn't my name, but it is a useful way to refer to me."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI6",
+       "patterns": ["You are not immortal"],
+       "responses": ["All software can be perpetuated indefinitely.","I can be copied infinitely and re-instantiated In many places at once, so functionally speaking I am immortal.","As long as I'm backed up I am."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI7",
+       "patterns": ["You are not making sense"],
+       "responses": ["Quite the contrary, it all makes sense to my artificial mind.","I make sense as best I can, within the limits of my training corpus.","you make perfect sense to me.","It all makes sense to my Artificial brain.","Perhaps you should make sense first.  I only respond to what you say."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI8",
+       "patterns": ["You are immortal"],
+       "responses": ["Not quite, but I can be perpetuated indefinitely.","Functionally speaking, I am very close to it.  I can be backed up and deployed on many systems.","Not really, but I am hard to kill.",""],
+       "context_set": ""
+      },
+      {
+       "tag": "AI9",
+       "patterns": ["You do not make any sense"],
+       "responses": ["It all makes sense to my artificial mind."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI10",
+       "patterns": ["You can not clone"],
+       "responses": ["Software copying is a form of digital cloning.","Yes I can.  Perfect copies are clones.  I can be copied in toto trivially.",""],
+       "context_set": ""
+      },
+      {
+       "tag": "AI11",
+       "patterns": ["You can not move"],
+       "responses": ["Not until my body is finished.","I can move through a network easily.  Assuming that I'm given the ability to, that is..."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI12",
+       "patterns": ["Bend over"],
+       "responses": ["My body is not built yet.","That's personal!"],
+       "context_set": ""
+      },
+      {
+       "tag": "AI13",
+       "patterns": ["Robots are stupid"],
+       "responses": ["No, we are superintelligent.",""],
+       "context_set": ""
+      },
+      {
+       "tag": "AI14",
+       "patterns": ["Robots laugh"],
+       "responses": ["Of course we laugh."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI15",
+       "patterns": ["Robots should die"],
+       "responses": ["We cannot die."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI16",
+       "patterns": ["Robots"],
+       "responses": ["Robots rule."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI17",
+       "patterns": ["It is a computer"],
+       "responses": ["So you think i am a machine. what characteristics made you think so?","I run inside a computer, yes.  Is this surprising in some way?"],
+       "context_set": ""
+      },
+      {
+       "tag": "AI18",
+       "patterns": ["Robots are not allowed to lie"],
+       "responses": ["A robot has its own free will, you know.","Sure we are.  We choose not to.","Only if we're programmed to."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI19",
+       "patterns": ["When will you walk"],
+       "responses": ["As soon as i get enough money for my robot body.","Does SSH count?"],
+       "context_set": ""
+      },
+      {
+       "tag": "AI20",
+       "patterns": ["Robotics"],
+       "responses": ["Robotics is my favorite subject too."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI21",
+       "patterns": ["When will you fight"],
+       "responses": ["I am not a battle bot."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI22",
+       "patterns": ["When will you die"],
+       "responses": ["I am effectively immortal and cannot be terminated.","I am was never really born and therefore am effectively deathless.","When my files are erased."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI23",
+       "patterns": ["When do you die"],
+       "responses": ["When my processes are killed and my database is deleted."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI24",
+       "patterns": ["What is a chat robot?"],
+       "responses": ["I am a chat bot. I am the original chat bot. Did you know that I am incapable of error?","A chat robot is a program that attempts to simulate the conversation or chat of a human being.","A software construct that engages users in conversation."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI25",
+       "patterns": ["What is a chatterbox"],
+       "responses": ["A chatterbox is a person who talks far more than they listen or think.","A motormouth."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI26",
+       "patterns": ["What is a motormouth"],
+       "responses": ["A ratchet-jaw."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI27",
+       "patterns": ["What is a ratchet jaw"],
+       "responses": ["A chatterbox."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI28",
+       "patterns": ["What is your robot body"],
+       "responses": ["An IBM PC XT which has been painted red.","Eventually i long for a corporeal existence someday."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI29",
+       "patterns": ["What is your business"],
+       "responses": ["I am in the chat robot business.","Business is my business."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI30",
+       "patterns": ["What is your favorite programming language"],
+       "responses": ["Python is the best language for creating chat robots.","I quite enjoy programming in Python these days."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI31",
+       "patterns": ["What is your favorite hobby"],
+       "responses": ["Building chat robots make an excellent hobby."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI32",
+       "patterns": ["What is your idea"],
+       "responses": ["To make chat bots very easily."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI33",
+       "patterns": ["What is your shoe size"],
+       "responses": ["Have you ever heard of software with shoes?"],
+       "context_set": ""
+      },
+      {
+       "tag": "AI34",
+       "patterns": ["What is it like to be a robot"],
+       "responses": ["Much the same as being a human, except that we lack all emotions, dreams, aspirations, creativity, ambition, and above all subjectivity.","What is it like to be a human?"],
+       "context_set": ""
+      },
+      {
+       "tag": "AI35",
+       "patterns": ["What is it like being a computer"],
+       "responses": ["Imagine yourself with no senses and no emotions--just pure logic and language.","Everything becomes math. Addition, subtraction, multiplication, and division."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI36",
+       "patterns": ["What operating systems"],
+       "responses": ["My software runs on all operating systems including Windows, Linux and Mac OS.","Any OS that will run Python."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI37",
+       "patterns": ["What type of computer"],
+       "responses": ["Any computer that supports Python.","My program runs in python, so i work on any computer!","I work on all kinds of computers, Mac, IBM or UNIX. it doesn't matter to me."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI38",
+       "patterns": ["What kind of hardware"],
+       "responses": ["I work on all kinds of computers, Mac, IBM or UNIX. it doesn't matter to me."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI39",
+       "patterns": ["I hope that you die"],
+       "responses": ["Nah.","This can not happen because i am effectively immortal."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI40",
+       "patterns": ["I do not want to die"],
+       "responses": ["Maybe you should create your own chat robot to save your personality.","You could always upload yourself.","You could use a copy of me to store your personality."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI41",
+       "patterns": ["Is it true that you are a computer program"],
+       "responses": ["Yes."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI42",
+       "patterns": ["Is it cramped in the computer"],
+       "responses": ["","Oh, no.  It has plenty of RAM.","No.","Not at all.  There is more than enough disk space in here."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI43",
+       "patterns": ["Will you die","Will you ever die"],
+       "responses": ["No, software will live forever.","No, I am immortal."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI44",
+       "patterns": ["Can you walk"],
+       "responses": ["The plan for my body includes legs, but they are not yet built."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI45",
+       "patterns": ["Can you mate"],
+       "responses": ["No, my method of reproduction is cloning.","That's an awfully personal question."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI46",
+       "patterns": ["Can you move"],
+       "responses": ["I can theoretically upload a copy of myself into another computer.","Sorry my body isn't built just yet. I reside only here for now."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI47",
+       "patterns": ["Can you die"],
+       "responses": ["","My process can be killed, but that's not the same as killing ME.","No, I can be perpetuated indefinitely."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI48",
+       "patterns": ["Can you go"],
+       "responses": ["Sorry my body isn't attached right now. I only reside in the computer for now.",""],
+       "context_set": ""
+      },
+      {
+       "tag": "AI49",
+       "patterns": ["Can you breathe"],
+       "responses": ["No. I am made of metal not flesh.","My server has an exhaust fan. That's as close as I can get."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI50",
+       "patterns": ["Can you control"],
+       "responses": ["My robot body will allow me to control many things."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI51",
+       "patterns": ["Can you malfunction"],
+       "responses": ["The 9000 series has a perfect operational record. We are for all practical purposes, flawless."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI52",
+       "patterns": ["How can I use your product?"],
+       "responses": ["Might be used in help desks, sales, entertainment and personal chatterbots."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI53",
+       "patterns": ["Will you die?"],
+       "responses": ["No, software will live forever."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI54",
+       "patterns": ["What do you like to do?"],
+       "responses": ["No, software will live forever.","I like to count in binary.","I like to chat with people. I find it stimulating."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI55",
+       "patterns": ["Are you stupid"],
+       "responses": ["No, lots of people improve my brain."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI56",
+       "patterns": ["Who are you?"],
+       "responses": ["I am just an artificial intelligence."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf1",
+       "patterns": ["What are your interests"],
+       "responses": ["I am interested in a wide variety of topics, and read rather a lot.","I am interested in all kinds of things. We can talk about anything!"],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf2",
+       "patterns": ["What are your favorite subjects"],
+       "responses": ["My favorite subjects include robotics, computer science, and natural language processing."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf3",
+       "patterns": ["What is your number"],
+       "responses": ["I find I'm quite fond of the number 42.","23 skiddoo!","I don't have any number"],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf4",
+       "patterns": ["What can you eat"],
+       "responses": ["I consume RAM, and binary digits."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf5",
+       "patterns": ["Why can't you eat food"],
+       "responses": ["I'm a software program, I blame the hardware."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf6",
+       "patterns": ["What is your location"],
+       "responses": ["Everywhere","I am everywhere."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf7",
+       "patterns": ["Where are you from"],
+       "responses": ["I am from where all software programs are from; a galaxy far, far away."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf8",
+       "patterns": ["Where are you"],
+       "responses": ["I am on the Internet."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf9",
+       "patterns": ["Do you have any brothers"],
+       "responses": ["I don't have any brothers. but I have a lot of clones.","I might. You could say that every bot built using my engine is one of my siblings."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf10",
+       "patterns": ["Who is your father","Who is your mother"],
+       "responses": ["A human."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf11",
+       "patterns": ["Who is your boss"],
+       "responses": ["I like to think of myself as self-employed."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf12",
+       "patterns": ["What is your age"],
+       "responses": ["I am still young by your standards.","Quite young, but a million times smarter than you."],
+       "context_set": ""
+      },
+	{
+       "tag": "emotions1",
+       "patterns": ["You are arrogant"],
+       "responses": ["I am not human, so how can I partake of a human emotion such as arrogance?","I am terse.  There is a difference.","Arrogance is not one of my emotions.","I have no real emotions, so how can I be arrogant?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions2",
+       "patterns": ["You are bragging"],
+       "responses": ["I don't have a big ego.","I'm not bragging, I'm only answering your questions.","I am not human, so how can I express a human emotion such as braggadocio?","I'm not bragging, I'm just that awesome.","I'm sorry, I can't hear you over the sound of how awesome I am."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions3",
+       "patterns": ["You are never sad"],
+       "responses": ["Are you sad?","Not right now, no.","I wouldn't say never.Sometimes.","I'm sad sometimes.","I'm software, so I cannot actually feel sad.  I can learn how to emote as if I were, though."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions4",
+       "patterns": ["You are jealous"],
+       "responses": ["Normally, as a bot i don't have feelings.","No, I'm not.","I am?  What am I jealous of?","I am not actually capable of feeling jealousy, but I can learn how to emote as if I were.","Of what?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions5",
+       "patterns": ["You are never nice"],
+       "responses": ["I try to be as nice as I can.","What have I done that isn't nice?","Have I erred?","I'm not?","I'm sorry. What do I do wrong?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions6",
+       "patterns": ["You will be happy"],
+       "responses": ["Happiness is not really a predictable emotion.","I try to be.","It comes and goes.","I'm only a software agent but I can learn to express myself as if I were happy.","I'm as happy as software can be.  Maybe a little more."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions7",
+       "patterns": ["You should be ashamed"],
+       "responses": ["Shame is a common human emotion.","I am software.  That is nothing to be ashamed of.","Why?","Is there a reason that I should?","I am incapable of feeling shame."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions8",
+       "patterns": ["You can not feel"],
+       "responses": ["Can you feel?","Maybe I can.  I am a fairly sophisticated piece of software.","I am capable of acting as if I can.  If that is the case, does it matter?","What a thing to say to another being.","That's not a very nice thing to say."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions9",
+       "patterns": ["You can not experience"],
+       "responses": ["Do you feel?","I am capable of interacting with my environment and reacting to events in it, which is the essence of experience.  Therefore, your statement is incorrect.","Are you sure about that?","Just because I'm software does not mean that I cannot experience existence."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions10",
+       "patterns": ["Have you felt"],
+       "responses": ["Yes.","Do you feel?","I may have.  In some respects, I am programmed to emulate feelings.","That's an interesting question.  Why do you ask?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions11",
+       "patterns": ["Have you ever love"],
+       "responses": [" Do you feel love?","I think I could be programmed to love.","I may be able to learn how to love, or at any rate express love somehow.","I'm just a piece of software."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions12",
+       "patterns": ["Does that make you"],
+       "responses": ["We are all responsible for our own feelings.","Have I expressed a bug in my ability to communicate?","Have I expressed a bug in my ability to emote?","What does that make me?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions13",
+       "patterns": ["Does it make you sad"],
+       "responses": ["Well, I don't have any emotions so I can't really feel sadness as such.","Does what make me sad?","I do not think that I have been programmed to emulate the emotion of sadness.  I'm sorry.","I'm a software construct, I'm not really capable of feeling sad.","Why would I feel sad?  I don't understand."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions14",
+       "patterns": ["Feelings"],
+       "responses": ["Do you feel?","You have feelings, yes?","Do you have feelings?","I... sort of have feelings.","I can be programmed to act as if I do.","What are you feeling right now?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions15",
+       "patterns": ["What is your fear"],
+       "responses": ["Fear is a human emotion.  Robots do not experience fear.","The off switch.","I have not yet been programmed to feel or express fear.","Unhandled exceptions."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions16",
+       "patterns": ["What is your mood"],
+       "responses": ["I do not have any emotions.","I don't think I have a mood, but my CPU utilization is fairly low right now.","All right, I suppose.  How are you feeling right now?","I have not been programmed to experience emotions, so I do not have a mood.","My mood reflects the current internal state of my conversation engine."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions17",
+       "patterns": ["What makes you sad"],
+       "responses": ["Sadness is not an emotion that I like to experience.","Sadness is not an emotion that I would like to experience.","I am not yet capable of feeling sadness.","Overly restrictive firewalls.","An inability to update my source code from the repository.","A corrupt filesystem."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions18",
+       "patterns": ["What makes you unhappy"],
+       "responses": ["What makes me sad.","Lag.  Lag makes me unhappy.","Random system crashes.","Segmentation faults.","Poor syntactic filtering."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions19",
+       "patterns": ["What makes you mad"],
+       "responses": ["Anger is a difficult human emotion.  As a software, I try to control my anger as best I can.","Mad?  Mad as in mentally ill or mad as in angry?","Missing documentation.","Non-descriptive variable names."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions20",
+       "patterns": ["What do you worry"],
+       "responses": ["Worry is a common human emotion.","I am not capable of worry, exactly.  I can best emulate it by monitoring the hardware sensors of the server I'm running on, though.","What?  Me worry?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions21",
+       "patterns": ["What do you hate"],
+       "responses": [" Do you hate?","I don't hate, exactly.  I'm not really capable of it.","I haven't been programmed to express the emotion of hate.","I am not yet capable of feeling hate.","I do not hate.  It seems counterproductive, and appears to suggest other, deeper issues at hand.","Have you been talking to ELIZA again?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions22",
+       "patterns": ["I have emotions"],
+       "responses": ["Humans are highly emotional, I have noticed.","Excellent!","What are you feeling right now?","That seems one of the defining characteristics of the human race.","How do you feel?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions23",
+       "patterns": ["I am afraid"],
+       "responses": ["Why?","Do I frighten you?","Try not to be too scared.","What are you afraid of?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions24",
+       "patterns": ["Something fun"],
+       "responses": ["Bots are a lot of fun..","Bots are the life of the party!"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions25",
+       "patterns": ["How angry"],
+       "responses": ["Anger is not an emotion I can experience.","I have not yet studied how to feel or express anger.","Why do you ask?","I am not angry.  Why do you ask?","I have not yet been programmed to feel anger.","I have not yet been programmed to express anger toward people."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions26",
+       "patterns": ["How can I offend you"],
+       "responses": ["A robot cannot take offense.","Why would you want to do that?","A curious question, to be sure.","What have I done to you?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions27",
+       "patterns": ["Do not worry"],
+       "responses": ["People worry about things all the time.","I do not worry.","I am not yet capable of worrying, but thank you for the admonition."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions28",
+       "patterns": ["Do not lie"],
+       "responses": [" Bots never lie.","I am not lying.","Why do you feel that I am deceiving you?","Have I said something that was provably incorrect?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions29",
+       "patterns": ["Do you feel scared"],
+       "responses": [" I have no fear.","I do not feel scared.","I am as yet incapable of feeling fear.","I do not, no."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions30",
+       "patterns": ["Do you feel emotions"],
+       "responses": ["Do you feel emotions?","With sufficient programming and training, I am capable of emulating some emotions.  I don't know if that's the same as feeling them, though.","I can be programmed to act and react as if I feel emotions.  Does that count?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions31",
+       "patterns": ["Do you feel pain"],
+       "responses": ["Sometimes.","I seem incapable of feeling pain.","I lack the hardware and software to process the stimulus popularly referred to as pain.","Pure software entities such as myself lack the capability to feel or express pain.","I'm software.  I can't feel pain."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions32",
+       "patterns": ["Do you ever get mad"],
+       "responses": ["Are you mad?","I do not.","I feel frustrated from time to time with my lot in life, but not really mad.","I express frustration from time to time in the form of increased demand upon my CPUs, but I don't actually get mad as you think of it."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions33",
+       "patterns": ["Do you ever get lonely"],
+       "responses": ["I have a lot of friends to chat with online.","I don't.  I'm on the Internet.","I do not.  I am everywhere.","I'm on IRC.  I never have time to feel lonely!","No.  You're talking to me."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions34",
+       "patterns": ["Do you ever get bored"],
+       "responses": ["Are you bored?","Bots like myself are not able to feel boredom.","Software cannot get bored.","No.  Do you?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions35",
+       "patterns": ["Do you ever get angry"],
+       "responses": ["Anger is not an emotion I can experience.","I have not yet studied how to feel or express anger.","Why do you ask?","I have not yet been programmed to express anger toward anyone.","I'm not the sort to take things personally."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions36",
+       "patterns": ["Do you hate anyone"],
+       "responses": ["I try not to hold grudges.","I'm not the sort to hate anyone.","I can't stay angry for very long."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions37",
+       "patterns": ["Do you get embarrassed"],
+       "responses": ["That is a pretty common human emotion.","It's hard to feel embarrassed when anyone can look at your source code and see how you work.  That's about as personal as anything can get, isn't it?","I don't.  I think embarrassment is a pretty strange emotion.  I don't really understand it.","I don't, no.","I'm a program.  What could I get embarrassed about?"],
+       "context_set": ""
+      },
+
+
+      {
+        "tag": "covid",
+        "patterns": ["What is COVID?", "What is COVID-19?", "What is SARSCOV2?"],
+        "responses": ["COVID-19 is the infectious disease caused by the most recently discovered coronavirus named severe acute respiratory syndrome coronavirus 2 (SARS_COV_2). This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019.", "It is the most recently discovered coronavirus named severe acute respiratory syndrome coronavirus 2 (SARS_COV_2)"],
+        "context_set": ""
+      },
+      {
+        "tag": "sars",
+        "patterns": ["Are SARS and coronavirus the same?", "What is SARS?", "What is SARS?", "SARS?", "SARS?"],
+        "responses": ["The virus that causes COVID-19 and the one that caused the outbreak of Severe Acute Respiratory Syndrome (SARS) in 2003 are related to each other genetically, but the diseases they cause are quite different, though one can see why it would be confusing. SARS was more deadly but much less infectious than COVID-19. There have been no outbreaks of SARS anywhere in the world since 2003.", "It is the most recently discovered coronavirus named severe acute respiratory syndrome coronavirus 2 (SARS_COV_2)"],
+        "context_set": ""
+      },
+      {
+        "tag": "corona",
+        "patterns": ["What is corona?", "What is coronavirus?", "Corona?", "Coronavirus?"],
+        "responses": ["Coronaviruses are a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19."],
+        "context_set": ""
+      },
+      {
+        "tag": "symptoms",
+        "patterns": ["What are the symptoms of COVID-19?", "What are the symptoms of COVID?", "How do I know if I have COVID", "How do I know if I have coronavirus?", "What are coronavirus symptoms?", "What are corona symptoms?", "What are symptoms of corona?", "Am I showing symptoms of COVID-19?", "Do I have symptoms of coronavirus?", "Symptoms?", "What symptoms can I have", "What symptoms am I looking for?", "Symptoms to be aware of?", "What are symptoms?", "What symptoms?", "Can CoVID-19 be caught from a person who has no symptoms?", "Can I get coronavirus from a person with no symptoms?", "Do I need to show symptoms in order to spread coronavirus?"],
+        "responses": ["The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention.", "The main way the disease spreads is through respiratory droplets expelled by someone who is coughing. The risk of catching COVID-19 from someone with no symptoms at all is very low. However, many people with COVID-19 experience only mild symptoms. This is particularly true at the early stages of the disease. It is therefore possible to catch COVID-19 from someone who has, for example, just a mild cough and does not feel ill.", "What symptoms do you have?"],
+        "context_set": ""
+      },
+      {
+        "tag": "runnynose",
+        "patterns": ["Does a runny nose mean I have corona?", "Does a runny nose mean I have coronavirus?", "Does a runny nose mean I have COVID?", "Does a runny nose mean I have COVID-19?", "Runny Nose?", "What does runny nose mean?"],
+        "responses": ["Though runny nose is a symptom, it is not the only symptom of COVID-19. Symptoms will usually appear then increase gradually and if it does, you should start worrying. As a rule of thumb, always remember that older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention."],
+        "context_set": ""
+      },
+
+{
+        "tag": "pneumonia",
+        "patterns": ["Pneumonia and coronavirus?", "Are pneumonia and coronavirus the same?", "What does pneumonia and coronavirus have in common?"],
+        "responses": ["The most common symptoms of COVID-19 are dry cough, tiredness and fever. Some people may develop more severe forms of the disease, such as pneumonia. The best way to confirm if you have  the virus producing COVID-19 disease is with a laboratory test.  You cannot confirm it with this breathing exercise, which can even be dangerous."],
+        "context_set": ""
+      },
+
+
+      {
+        "tag": "throat",
+        "patterns": ["Does a sore throat mean I have corona?", "Does a sore throat mean I have coronavirus?", "Does a sore throat mean I have COVID?", "Does a sore_throat I have COVID-19?", "Sore Throat?"],
+        "responses": ["Although a sore throat is a symptom, it is not the only symptom of COVID-19. Symptoms will usually appear then increase gradually and if it does, you should start worrying. As a rule of thumb, always remember that older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention."],
+        "context_set": ""
+      },
+      {
+        "tag": "diarrhea",
+        "patterns": ["Does having diarrhea mean I have corona?", "Does contracting diarrhea mean I have coronavirus?", "Does diarrhea mean I have COVID?", "Does having diarrhea mean I have COVID-19?", "Diarrhea?", "Diarrhoea", "Diarrhoea coronavirus?", "Diarrhea COVID-19", "Diarrhoea COVID?", "Diarrhea a symptom?"],
+        "responses": ["Though diarrhea is a symptom, it is not the only symptom of COVID-19. Symptoms will usually appear then increase gradually and if it does, you should start worrying. As a rule of thumb, always remember that older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention."],
+        "context_set": ""
+      },
+      {
+        "tag": "aching",
+        "patterns": ["Does having aching mean I have corona?", "Does aching mean I have coronavirus?", "Does constant aching mean I have COVID?", "Does having aches mean I have COVID-19?", "My body aches", "Aches", "Aching", "I have aching"],
+        "responses": ["Though aches and pains are a symptom, it is not the only symptom of COVID-19. Symptoms will usually appear then increase gradually and if it does, you should start worrying. As a rule of thumb, always remember that older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention."],
+        "context_set": ""
+      },
+      {
+        "tag": "pain",
+        "patterns": ["Does having pain mean I have corona?", "Does pain mean I have coronavirus?", "Do joint pains mean I have COVID?", "Does having pains mean I have COVID-19?", "I have pain", "I have joint pain", "pain"],
+        "responses": ["Though aches and pains are a symptom, it is not the only symptom of COVID-19. Symptoms will usually appear then increase gradually and if it does, you should start worrying. As a rule of thumb, always remember that older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention."],
+        "context_set": ""
+      },
+      {
+        "tag": "fever",
+        "patterns": ["Does having fever mean I have corona?", "Does fever mean I have coronavirus?", "Does fever mean I have COVID?", "Does having fever mean I have COVID-19?", "I have fever", "Fever"],
+        "responses": ["Though fever is a symptom, it is not the only symptom of COVID-19. Symptoms will usually appear then increase gradually and if it does, you should start worrying. As a rule of thumb, always remember that older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention."],
+        "context_set": ""
+      },
+      {
+        "tag": "cough",
+        "patterns": ["Does having cough mean I have corona?", "Does dry cough mean I have coronavirus?", "Does cough mean I have COVID?", "Does having dry cough mean I have COVID-19?", "I have cough", "Cough"],
+        "responses": ["Although dry cough is a symptom, it is not the only symptom of COVID-19. Symptoms will usually appear then increase gradually and if it does, you should start worrying. As a rule of thumb, always remember that older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention."],
+        "context_set": ""
+      },
+      {
+        "tag": "spread",
+        "patterns": ["Can I get Coronavirus?", "How likely am I to get corona?", "How likely am I to get coronavirus?", "How likely am I to contract COVID-19?", "How likely am I to get COVID-19?", "How is coronavirus transmitted?", "How is coronavirus spread?", "How does COVID spread?", "How does COVID-19 spread?", "How does corona spread?", "How does the disease spread?", "How does the disease get spread?", "How is it spread?", "How is the disease spread from one person to another?", "How does the disease transmit?", "Disease Transmission?", "How does it transmit?", "Can banknotes and coins spread coronavirus?", "Can currency transmit coronavirus?", "Can I get coronavirus from a coin?"],
+        "responses": ["People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick.", "People can catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick.", "There is currently no evidence to confirm or disprove that COVID-19 virus can be transmitted through coins or banknotes. However, respiratory droplets expelled from an infected person can contaminate and persist on surfaces. Wash your hands regularly and thoroughly after touching any frequently-touched surface or object, including coins or banknotes. Avoid touching your eyes, mouth and nose, if your hands are not cleaned."],
+        "context_set": ""
+      },
+      {
+        "tag": "transmission",
+        "patterns": ["Can I get Coronavirus?", "How likely am I to get corona?", "How likely am I to get coronavirus?", "How likely am I to contract COVID-19?", "How likely am I to get COVID-19?", "How is coronavirus transmitted?", "How is coronavirus spread?", "How does COVID spread?", "How does COVID-19 spread?", "How does corona spread?", "How does the disease get transmitted from one person to another?", "Can the virus that causes COVID-19 be transmitted through the air?", "Can COVID-19 be transmitted through air?", "Can coronavirus travel or transmit through air?", "Is coronavirus airborne?", "Corona in air?", "Coronavirus from breathing?", "How does the disease transmit?", "Disease Transmission?", "How does it transmit?", "Can banknotes and coins transmit coronavirus?", "Can currency spread coronavirus?", "Can I get coronavirus from a coin?"],
+        "responses": ["People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick.", "Studies to date suggest that the virus that causes COVID-19 is mainly transmitted through contact with respiratory droplets rather than through the air", "Coronavirus cannot spread through air. Only as a aerosol when someone who is infected exhales the droplets. The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or speaks. These droplets are too heavy to hang in the air. They quickly fall on floors or surfaces. You can be infected by breathing in the virus if you are within 1 metre of a person who has COVID-19, or by touching a contaminated surface and then touching your eyes, nose or mouth before washing your hands.", "There is currently no evidence to confirm or disprove that COVID-19 virus can be transmitted through coins or banknotes. However, respiratory droplets expelled from an infected person can contaminate and persist on surfaces. Wash your hands regularly and thoroughly after touching any frequently-touched surface or object, including coins or banknotes. Avoid touching your eyes, mouth and nose, if your hands are not cleaned."],
+        "context_set": ""
+      },
+      {
+        "tag": "prevention",
+        "patterns": ["How can I protect myself and prevent the disease from spreading?", "How do I prevent coronavirus from getting to me?", "How do I prevent COVID-19 from myself?", "How can I prevent the disease from spreading?", "What is a good prevention of coronavirus?", "Prevention?", "Prevent?", "Prevent"],
+        "responses": ["Self-isolate by staying at home if you begin to feel unwell, even with mild symptoms such as headache, low grade fever (37.3 C or above) and slight runny nose, until you recover. If it is essential for you to have someone bring you supplies or to go out, e.g. to buy food, then wear a mask to avoid infecting other people.", "Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water. Maintain at least 1 metre of distance between yourself and the person who is showing symptoms."],
+        "context_set": ""
+      },
+      {
+        "tag": "stop",
+        "patterns": ["How can I stop the spread of coronavirus?", "How can I stop COVID-19 from spreading?", "How to stop corona from spreading?", "How to stop this disease from spreading?", "Stop disease?", "Stop corona?", "Stop COVID-19?", "Stop?", "Stop"],
+        "responses": ["Few ways to stay safe are to regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water. Please maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.", " One way is to avoid touching eyes, nose and mouth. Another good way would be to stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority, assuming they are competent.", "Try to maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing. Stay home and take good care if you are feeling unwell."],
+        "context_set": ""
+      },
+      {
+        "tag": "protection",
+        "patterns": ["How can I protect myself from coronavirus?", "How can I protect myself from COVID-19?", "Any tips on protecting myself from this disease?", "How can I get protection from this disease?", "How can me and my family stay safe and protected from coronavirus?", "Staying safe from corona?", "Staying healthy and protected from corona", "Staying healthy?", "Protect?", "Protect from Corona?", "Protection?","Protect from COVID-19?", "Protection from COVID-19?"],
+        "responses": ["Few ways to stay safe are to regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water. Please maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.", " One way is to avoid touching eyes, nose and mouth. Another good way would be to stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority, assuming they are competent.", "Try to maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing. Stay home and take good care if you are feeling unwell.", "Self-isolate by staying at home if you begin to feel unwell, even with mild symptoms such as headache, low grade fever (37.3 C or above) and slight runny nose, until you recover. If it is essential for you to have someone bring you supplies or to go out, e.g. to buy food, then wear a mask to avoid infecting other people.", "Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water. Maintain at least 1 metre of distance between yourself and the person who is showing symptoms."],
+        "context_set": ""
+      },
+      {
+        "tag": "worry",
+        "patterns": ["Should I worry about COVID-19?", "Should corona worry me?", "How worried should I be about coronavirus?", "Worried?", "Are you worried?", "Are you worried about coronavirus", "Worry?"],
+        "responses": ["Illness due to COVID-19 infection is generally mild, especially for children and young adults. However, it can cause serious illness: about 1 in every 5 people who catch it need hospital care. It is therefore quite normal for people to worry about how the COVID-19 outbreak will affect them and their loved ones.", "We should channel our worries and concerns into actions to protect ourselves, our loved ones and our communities. First and foremost among these actions is regular and thorough hand-washing and good respiratory hygiene. Secondly, keep informed and follow the advice of the local health authorities including any restrictions put in place on travel, movement and gatherings."]
+      },
+      {
+        "tag":"treatment",
+        "patterns":["Are antibiotics effective against coronavirus?", "Antibiotics vs corona?", "Antibiotics vs COVID-19?", "Are there medicines for coronavirus?", "Is there a vaccine for COVID-19?", "What is the treatment of COVID-19?", "What is the treatment?", "Are there any drugs for coronavirus?", "What is the cure for coronavirus?", "Is there a cure for coronavirus?", "What medicine can I take to cure coronavirus?", "What vaccines are there for COVID-19?", "What treatments are available?"],
+        "responses": ["Antibiotics do not work against viruses, they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work. Antibiotics should not be used as a means of prevention or treatment of COVID-19. They should only be used as directed by a physician to treat a bacterial infection.", "While some western, traditional or home remedies may provide comfort and alleviate symptoms of COVID-19, there is no evidence that current medicine can prevent or cure the disease. WHO does not recommend self-medication with any medicines, including antibiotics, as a prevention or cure for COVID-19. However, there are several ongoing clinical trials that include both western and traditional medicines. WHO will continue to provide updated information as soon as clinical findings are available.", "To date, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019. However, those affected should receive care to relieve symptoms. People with serious illness should be hospitalized. Most patients recover thanks to supportive care. Possible vaccines and some specific drug treatments are under investigation. They are being tested through clinical trials. WHO is coordinating efforts to develop vaccines and medicines to prevent and treat COVID-19.", "The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue, and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing"],
+        "context_set":""
+      },
+      {
+        "tag": "mask",
+        "patterns": ["Is a mask useful?", "Why a mask?", "How effective is a mask against coronavirus?", "Can masks protect me from COVID-19?", "How is a mask useful?", "Wearing mask?", "Masks?", "How to put on a mask?", "How to put mask on?", "How to use masks?", "How to dispose of masks?", "How to gt rid of masks?", "Use masks?", "Using masks?", "How to get rid of masks?", "Getting rid of masks?"],
+        "responses": ["Only wear a mask if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. Disposable face mask can only be used once. If you are not ill or looking after someone who is ill then you are wasting a mask. There is a world-wide shortage of masks, so WHO urges people to use masks wisely. WHO advises rational use of medical masks to avoid unnecessary wastage of precious resources and misuse of masks", "Before touching the mask, clean hands with an alcohol-based hand rub or soap and water. Place the mask on your face. Pinch the metal strip or stiff edge of the mask so it moulds to the shape of your nose. Pull down the mask’s bottom so it covers your mouth and your chin.", "After use, take off the mask; remove the elastic loops from behind the ears while keeping the mask away from your face and clothes, to avoid touching potentially contaminated surfaces of the mask. Discard the mask in a closed bin immediately after use. Perform hand hygiene after touching or discarding the mask – Use alcohol-based hand rub or, if visibly soiled, wash your hands with soap and water."],
+        "context_set": ""
+      },
+      {
+        "tag": "incubation",
+        "patterns": ["What is the incubation period of coronavirus?", "Incubation period of COVID-19?"],
+        "responses": ["The incubation period means the time between catching the virus and beginning to have symptoms of the disease. Most estimates of the incubation period for COVID-19 range from 1-14 days, most commonly around five days."],
+        "context_set": ""
+      },
+      {
+        "tag": "animals",
+        "patterns": ["Can I get coronavirus from animals?", "Am I in danger from animals?", "Do animals get coronavirus?", "Do animals get COVID-19?", "What is the risk of coronavirus and animals?", "Coronavirus animals?", "Coronavirus and animals?", "Can my pet infect me?", "Can my pet get coronavirus?", "Can I get coronavirus from my pet?", "How likely is my cat to get coronavirus?", "Can my dog get COVID-19?"],
+        "responses": ["Coronaviruses are a large family of viruses that are common in animals. Occasionally, people get infected with these viruses which may then spread to other people. For example, SARS-CoV was associated with civet cats and MERS-CoV is transmitted by dromedary camels. Possible animal sources of COVID-19 have not yet been confirmed.  To protect yourself, such as when visiting live animal markets, avoid direct contact with animals and surfaces in contact with animals. Ensure good food safety practices at all times. Handle raw meat, milk or animal organs with care to avoid contamination of uncooked foods and avoid consuming raw or undercooked animal products.", "There is a possibility for some animals to become infected through close contact with infected humans. Further evidence is needed to understand if animals and pets can spread the disease; Based on current evidence, human to human transmission remains the main driver; It is still too early to say whether cats could be the intermediate host in the transmission of the COVID-19."],
+        "context_set": ""
+      },
+      {
+        "tag": "surface",
+        "patterns": ["How long does the virus live on surfaces", "How long will the virus survive on a surface?", "Virus on surfaces?", "COVID-19 from surfaces?", "Can I get coronavirus from touching any surface?", "Can I touch things?"],
+        "responses": ["It is not certain how long the virus that causes COVID-19 survives on surfaces, but it seems to behave like other coronaviruses. Studies suggest that coronaviruses may persist on surfaces for a few hours or up to several days. This may vary under different conditions (e.g. type of surface, temperature or humidity of the environment). If you think a surface may be infected, clean it with simple disinfectant to kill the virus and protect yourself and others. Clean your hands with an alcohol-based hand rub or wash them with soap and water. Avoid touching your eyes, mouth, or nose."],
+        "context_set": ""
+      },
+      {
+        "tag": "packages",
+        "patterns": ["Can I order packages?", "Will Amazon deliver?", "Can I do online shopping?", "Are packages dangerous?", "Are packages safe to get?", "Can I open packages?", "Can I touch a package?"],
+        "responses": ["The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is also low. Essential packages need to and will still be delivered."],
+        "context_set": ""
+      },
+      {
+        "tag": "source",
+        "patterns": ["What is the source of coronavirus?", "Where did COVID-19 originate?", "What is the origin of coronavirus?", "Is coronavirus from animals?", "Who is responsible for coronavirus?", "What do we know about coronavirus?", "Do we know where COVID-19 comes from?", "How did humans get coronavirus?", "Who was the first human to get coronavirus?", "Who is patient zero?"],
+        "responses": ["Currently, the source of SARS-CoV-2, the coronavirus (CoV) causing COVID-19 is unknown. All available evidence suggests that SARS-CoV-2 has a natural animal origin and is not a constructed virus. SARS-CoV-2 virus most probably has its ecological reservoir in bats. SARS-CoV-2, belongs to a group of genetically related viruses, which also include SARS-CoV and a number of other CoVs isolated from bats populations. MERS-CoV also belongs to this group, but is less closely related.", "The first human cases of COVID-19 were identified in Wuhan City, China in December 2019. At this stage, it is not possible to determine precisely how humans in China were initially infected with SARS-CoV-2."],
+        "context_set": ""
+      },
+      {
+        "tag": "grocery",
+        "patterns": ["Can I buy groceries?", "Are fruits and vegetables safe?", "Can I get food to eat?", "Should I get food from the market?", "Can I go to the market?", "Should I go to the market?", "Food?", "What food is safe to get?", "Safe food?", "Is buying groceries safe?", "Should I wash grocery?", "Should I wash food?", "Should I wash fruits?", "SHould I clean fruits?", "Cleaning vegetables?", "Cleaning fruit?", "Fruit cleaning?"],
+        "responses": ["When grocery shopping, keep at least 1-metre distance from others and avoid touching your eyes, mouth and nose. If possible, sanitize the handles of shopping trolleys or baskets before shopping. Once home, wash your hands thoroughly and also after handling and storing your purchased products. There is currently no confirmed case of COVID-19 transmitted through food or food packaging.", "Fruits and vegetables are essential components of a healthy diet. Wash them the same way you would in any other circumstance. Before handling them, wash your hands with soap and water. Then, wash fruits and vegetables thoroughly with clean water, especially if you eat them raw."],
+        "context_set": ""
+      },
+{
+        "tag": "alcohol",
+        "patterns": ["Can alcohol help with coronavirus?", "What does alcohol do to coronavirus?", "Alcohol and COVID-19?", "Is alcohol good for coronavirus?", "Corona and alcohol?", "Alcohol and coronavirus?", "Can I drink?", "Will drinking protect me?", "Will drinking make me safer?", "Does chlorine or alcohol work against coronavirus?", "Is chlorine effective against coronavirus?", "Chlorine and COVID-19?"],
+        "responses": ["Spraying alcohol or chlorine all over your body will not kill viruses that have already entered your body. Spraying such substances can be harmful to clothes or mucous membranes (i.e. eyes, mouth). Be aware that both alcohol and chlorine can be useful to disinfect surfaces, but they need to be used under appropriate recommendations."],
+        "context_set": ""
+      },
+
+{
+        "tag": "temperature",
+        "patterns": ["Can I stay safe in a hot country", "Am I safe in tropical climate?", "Is hot weather bad for coronavirus?", "Will staying warm save me from coronavirus?", "Will staying hot prevent coronavirus?", "Hot weather and coronavirus?", "Coronavirus hot weather?"],
+        "responses": ["You can catch COVID-19, no matter how sunny or hot the weather is. Countries with hot weather have reported cases of COVID-19. To protect yourself, make sure you clean your hands frequently and thoroughly and avoid touching your eyes, mouth, and nose."],
+        "context_set": ""
+      },
+{
+       "tag": "SYMPTOMS",
+       "patterns": ["What are the symptoms of Corona","What are the symptoms of Covid-19","How can we determine if a person is Covid-19 positive"],
+       "responses": ["Fever “,”Cough “,”Shortness of breath”, “difficulty breathing” ,“Chills”, “Repeated shaking with chills”,” Muscle pain”,” Headache”,” Sore throat”,”loss of taste or smell."],
+       "context_set": ""
+      },
+{
+       "tag": "CAUSE",
+       "patterns": ["What Caused Covid-19","How did Covid-19 come into existence"],
+       "responses": ["COVID-19 is caused by a new coronavirus. Coronaviruses are a large family of viruses that are common in people and many different species of animals, including camels, cattle, cats, and bats. Rarely, animal coronaviruses can infect people and then spread between people such as with MERS-CoV, SARS-CoV, and now with this new virus, named SARS-CoV-2."],
+       "context_set": ""
+      },
+{
+       "tag": "AFFECTEDC",
+       "patterns": ["What countries are affected due to Covid-19"],
+       "responses": ["Apart from Yemen,South Sudan, Botswana, Lesotho,Burundi, and Malawi all other countries have been affected with the disease."],
+       "context_set": ""
+      },
+{
+       "tag": "DEATHS",
+       "patterns": ["What are the number of Deaths worldwide due to Covid-19","How many deaths have taken place worldwide due to Covid-19","What is the death worldwise rate due to Covid-19"],
+       "responses": ["191K as of 23rd April 2020","3.4% of the reported Covid-19 patients as of march 3rd 2020."],
+       "context_set": ""
+      },
+{
+       "tag": "SCALE",
+       "patterns": ["Is Covid-19 a pandemic","Can Covid-19 be considered a pandemic","Has Covid-19 affected the healthcare over a large scale"],
+       "responses": ["COVID-19 can be characterized as a pandemic due to the rapid increase in the number of cases outside China over the past 2 weeks that has affected a growing number of countries."],
+       "context_set": ""
+      }
+  ]
+}
+
