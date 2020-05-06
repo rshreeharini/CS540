@@ -1044,15 +1044,36 @@
         "responses":["Please visit this page for more information" , " Please take a look at this page for department activities" , " Take a look at this page for information on various club activities and organizations" ],
         "context_set":""
       },
+
 {
    "tag": "research",
-        "patterns": [ "What are the various researches going on?","research","researches","various research groups","research groups","what are the various research groups in CS department","What are the research areas in CS dept","research areas" ], 
-        "responses":["The various research areas are Artificial Intelligence, Computer Networks, Software Engineering, Big Data and many more. For further details, Please visit https://compsci.colostate.edu/research/.", " The research groups in CS department are Big Data, Distributed Systems, BioInformatics. For further details, visit https://compsci.colostate.edu/research/."," The various research areas are : Artificial Intelligence, Computer Networks, Data Security and Privacy, Software Engineering, Big Data, High Performance Computing, Computer Vision and Graphics, Distributed Systems, BioInformatics, Algorithms Theory and Logic."],
+        "patterns": [ "What are the various researches going on?" , "research", "researches", "various research groups", "research groups", "what are the various research groups in CS department", "What are the research areas in CS dept" , "research areas" ], 
+        "Responses":[ "At the Department of Computer Science at Colorado State University, research is a team effort. Faculty and students participate in an exciting interdisciplinary research community and propel the national and international reputation of our laboratories and centers. Partnering with domestic and international universities, industry, and government, they find cures for diseases, build robots, secure networks, create adaptive technologies, protect your information and privacy, prepare for natural disasters, develop cyber and defense tools, design smart cities, and much more. For detailed information please visit: https://compsci.colostate.edu/research/", "The research domains are: Artificial Intelligence, Computer Networks, Data Security and Privacy, Software Engineering, Big Data, High Performance Computing, Computer Vision and Graphics, Distributed Systems, BioInformatics, Algorithms Theory and Logic. Please visit : https://compsci.colostate.edu/research/.", "The various research areas are : Artificial Intelligence, Computer Networks, Data Security and Privacy, Software Engineering, Big Data, High Performance Computing, Computer Vision and Graphics, Distributed Systems, BioInformatics, Algorithms Theory and Logic. Please visit: https://compsci.colostate.edu/research/ for more insights." ],
+        "context_set":""
+      },
+{
+   "tag": "artificialintelligencerg",
+        "patterns": [ "Aritificial Intelligence research group.", "AI group", "AI research group", "AI Program", "Artificial Intelligence program", "Artificial Intelligence Program at CSU”  ], 
+        "responses":[ "The AI Program is made up of six faculty and approximately 30 graduate students within the Department of Computer Science with strong collaborative ties to other departments at Colorado State and to local industry. For more information please visit: https://www.cs.colostate.edu/aigroup.html " , "The AI Program is made up of six faculty and approximately 30 graduate students within the Department of Computer Science. For more information please visit: https://www.cs.colostate.edu/aigroup.html " ],
+        "context_set":""
+      },
+{
+   "tag": "computernetworksrg",
+        "patterns": [ "Network Security Research Group at Colorado State University", "Computer Networks Research group" , "Networks Research group", "Network Security Research Group" ], 
+        "responses":[ "NetSec is the Network Security Research Group in CSU. For projects and contact information please visit: https://www.netsec.colostate.edu/ ", "For the Computer Networks domain, the department has a Network Security Research Group. For projects and more information please visit https://www.netsec.colostate.edu/ " ],
+        "context_set":""
+      },
+{
+   "tag": "softwareengineeringrg",
+        "patterns": [ "Software Engineering Research group at CSU",  "Software Engineering Program",  "Software Engineering Research group" ], 
+        "responses":[ "Faculty in the department conduct research on many software engineering topics including requirements analysis, software architecture and design, process evaluation, software testing and reliablility, software evolution, program comprehension, object-oriented techniques, and modeling of all aspects of software development. For more information please visit: https://www.cs.colostate.edu/~bieman/SE/ ", "Faculty in the department conduct research on many software engineering topics. The curriculum includes software engineering instruction at all levels, from undergraduate courses on software development methods to graduate-level courses on advanced topics. For more information please visit: https://www.cs.colostate.edu/~bieman/SE/  " ],
+        "context_set":""
+      },
+{
+   "tag": "computervisionandgraphicsrg",
+        "patterns": [ "Computer Vision and Graphics Research group at CSU",  "Computer Vision and Graphics Program",  "Computer Vision andGraphics Research group" ], 
+        "responses":[ "The Computer Vision Group at Colorado State University was started in 1993 and is focused on semantic understanding of people, objects and activities from still images and videos. The deeply challenging nature of these tasks consistently leads us to address computer vision in the     broader context of artificial intelligence, integrating techniques from machine learning, algebraic topology, empirical evaluation and statistics. Our goal is to use these techniques to develop computer vision systems whose behaviors are both reliable and understood. For more information please visit https://www.cs.colostate.edu/~vision/ ", "The Computer Vision Group is focused on semantic understanding of people, objects and activities from still images and videos. For more information please visit https://www.cs.colostate.edu/~vision/"  ],
         "context_set":""
       }
-
 ]
 }
-
-
-
